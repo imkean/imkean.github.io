@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<script type="text/javascript">
+$(document).ready(function(){
+  var toc = $("ul#toc_of_keans_blog");
+  var newtoc = $("#toc_insert")
+  newtoc.html(toc.html());
+  toc.remove();
+  $(".container").css("max-width","92%");
+});
+</script>
+
+
+<div >
+  <h1>{{ page.title }}</h1>
+  <p class="tags"> &nbsp
+    {% for tg in page.tags %}
+    <span class="label label-info">{{tg}}</span>
+    {% endfor %}
+  </p>
+  <div class="date" align="right">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+</div>
+
+<div class="container" role="main">
+  <article class="post">
+    <div id="toc_node">
+      <ul id="toc_insert">
+      </ul>
+    </div>
+    <div class="entry">
+      {{ content }}
+    </div>
+
+  </article>
+</div>
+
+<div>
+  {% if site.duoshuo %}
+  {%  include duoshuo.html %}
+  {% endif %}
+
+  {% if site.disqus %}
+  {% include disqus.html %}
+  {% endif %}
+</div>
