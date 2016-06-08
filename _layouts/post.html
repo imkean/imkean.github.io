@@ -91,9 +91,11 @@ ul.nav-tabs.affix-top{
             {{content}}
           </div>
           <div class="related-wrap ">
-          {%for text in site.related_posts%}
-          <span class="span-link"><a href="{{text.url}}"> {{text.title}}</a></span>
-          {% endfor %}
+            <div class="related-body">
+                {%for text in site.related_posts%}
+                <span class="span-link"><a href="{{text.url}}"> {{text.title}}</a></span>
+                {% endfor %}
+              </div>
           </div>
         </div>
       </div>
