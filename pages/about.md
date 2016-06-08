@@ -15,6 +15,7 @@ permalink: /about/
 - Maybe also tags cloud Page or module
 - Navbar Focus on
 - Related Post Module
+- Social Account Module
 
 
 ## About Me
