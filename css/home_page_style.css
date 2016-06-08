@@ -112,6 +112,12 @@ img.img-logo{
   width: 70px;
   border: 1px #fff solid;
   border-radius: 50%;
+  transition: all 1s;
+}
+img.img-logo:hover{
+  transform: rotate(360deg);
+  border: 1px #ff5050 solid;
+  transition: all 1s;
 }
 
 div span, p {
@@ -159,7 +165,7 @@ a.btn:hover {
     font-size: 48px;
   }
   div span{
-    font-size: 20px;
+    font-size: 18px;
   }
   div img.img-logo {
     height: 48px;
@@ -181,7 +187,7 @@ a.btn:hover {
     border-radius: 50%;
   }
   div span, p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .btn {
     font-size: 12px;

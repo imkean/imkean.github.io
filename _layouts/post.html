@@ -4,16 +4,16 @@ layout: default
 <style type="text/css">
 /*custom Styles */
 /*div.highlighter-rouge::before{
-  content: "+";
-  font-size: 1em;
-  text-align: center;
-  color: black;
-  background: #eee;
-  border: 2px #444 solid;
-  width:40px;
-  height:40px;*/
-  /*padding-right: 1em;
-  /padding-top: -1em;*/
+content: "+";
+font-size: 1em;
+text-align: center;
+color: black;
+background: #eee;
+border: 2px #444 solid;
+width:40px;
+height:40px;*/
+/*padding-right: 1em;
+/padding-top: -1em;*/
 /*}*/
 
 ul.nav-tabs{
@@ -92,10 +92,10 @@ ul.nav-tabs.affix-top{
           </div>
           <div class="related-wrap ">
             <div class="related-body">
-                {%for text in site.related_posts%}
-                <span class="span-link"><a href="{{text.url}}"> {{text.title}}</a></span>
-                {% endfor %}
-              </div>
+              {%for text in site.related_posts%}
+              <span class="span-link"><a href="{{text.url}}"> {{text.title}}</a></span>
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>
@@ -103,11 +103,11 @@ ul.nav-tabs.affix-top{
         {%if site.duoshuo and site.disqus %}
         <button onclick="change_comment()" value = "disqus" id="comment-btn"
         type="button" class="btn btn-default">使用中文评论</button>
-      {% endif %}
-      <div >
-      {% include duoshuo.html %}
-      {% include disqus.html %}
-      </div>
+        {% endif %}
+        <div >
+          {% include duoshuo.html %}
+          {% include disqus.html %}
+        </div>
       </div>
     </div>
     <div class="col-md-3 blog-sidebar col-sm-3 col-xs-3">
@@ -181,12 +181,12 @@ ul.nav-tabs.affix-top{
 
   //$(document).ready(function(){
 
-    //$("#idx").click(function() {
-      //alert("shit");
-      //alert($("#myScrollspy").scrollTop()+'px shit');
-      //$("#myScrollspy").scrollTop(60);//+=200;
+  //$("#idx").click(function() {
+  //alert("shit");
+  //alert($("#myScrollspy").scrollTop()+'px shit');
+  //$("#myScrollspy").scrollTop(60);//+=200;
 
-      //alert($("div").scrollTop())+=60;
+  //alert($("div").scrollTop())+=60;
   //  });
   //});
   </script>

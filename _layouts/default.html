@@ -12,7 +12,7 @@
   <!-- Bootstrap core CSS -->
 
   {% for cs in page.html_head_css %}
-    <link href="{{cs}}" rel="stylesheet">
+  <link href="{{cs}}" rel="stylesheet">
   {% endfor %}
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet">
@@ -23,11 +23,11 @@
   <script src="/js/bootstrap.min.js"></script>
   {%include duoshuo_common.html%}
   {% if page.MathJax or true %}
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async=true> </script>
   {% endif %}
 
   {% for js in page.html_head_js %}
-    <script  src="{{js}}"></script>
+  <script  src="{{js}}"></script>
   {% endfor %}
   <!--script src="/js/scroll-up-bar.min.js"></script-->
 </head>
@@ -68,7 +68,7 @@
   </nav><!-- /.navbar -->
 
   <div class="article">
-  {{ content }}
+    {{ content }}
   </div>
   <div class="footer-wrap">
     <footer class = "footer">
@@ -78,15 +78,14 @@
   </div> <!--footer-wrap-->
   <!--{% include analytics.html %}!-->
   {% for js in page.html_tail_js %}
-    <script src="{{js}}"></script>
+  <script src="{{js}}"></script>
   {% endfor %}
   <script src="/js/scroll-up-bar.min.js"></script>
-
   <script type="text/javascript">
-    {% for line in  page.html_tail_js_piece %}
-      {{line}}
-    {% endfor %}
-    $('#topbar').scrollupbar();
+  {% for line in  page.html_tail_js_piece %}
+  {{line}}
+  {% endfor %}
+  $('#topbar').scrollupbar();
   </script>
 </body>
 </html>
