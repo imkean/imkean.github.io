@@ -2,6 +2,7 @@
 layout: page
 title: Archives
 permalink: /archives/
+navbar_focus: archives
 ---
 
 

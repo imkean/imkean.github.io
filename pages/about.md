@@ -2,20 +2,21 @@
 layout: page
 title:
 permalink: /about/
+navbar_focus: about
 ---
 
 # Functions Need to Be Done :-)
 
-- Search Blogs
-- Tags Page
-- Archives Page
-- Wiki Page
-- Categories Page
-- Go to Top Button
-- Maybe also tags cloud Page or module
-- Navbar Focus on
-- Related Post Module
-- Social Account Module
+- ✘ Search Blogs
+- ✘ Tags Page
+- ✘ Archives Page
+- ✘ Wiki Page
+- ✘ Categories Page
+- ✓ Go to Top Button
+- ✘ Maybe also tags cloud Page or module
+- ✘ Navbar Focus on
+- ✘ Related Post Module
+- ✘ Social Account Module
 
 
 ## About Me

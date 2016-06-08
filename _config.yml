@@ -143,3 +143,15 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+collections:
+  leetcode:
+    output: true
+    permalink: /leetcode/:path/
+
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+
+
