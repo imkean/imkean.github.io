@@ -110,7 +110,7 @@ h1 {
 img.img-logo{
   height: 70px;
   width: 70px;
-  border: 1px #fff solid;
+  /*border: 1px #fff solid;*/
   border-radius: 50%;
   transition: all 1s;
 }
