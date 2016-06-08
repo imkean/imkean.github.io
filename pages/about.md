@@ -14,6 +14,7 @@ permalink: /about/
 - Go to Top Button
 - Maybe also tags cloud Page or module
 - Navbar Focus on
+- Related Post Module
 
 
 ## About Me
