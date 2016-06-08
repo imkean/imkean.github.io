@@ -1,0 +1,243 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "variables";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  min-height: 1000px;
+  width: 100%;
+  padding-top: 70px;
+  color: #111;
+   /*Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+/*<<<<<< nav bar ***********************/
+#topbar{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+/********************* nav bar >>>>>>>>>>>>*/
+
+
+/* <<<<<<< search bar style *********/
+
+#search_text:hover,#search_text:focus{
+	box-shadow: 0 0 3px #ddd;
+	border: 1px #ff5050 solid;
+}
+
+/*********** search bar style >>>>>>>>>*/
+
+
+/*<<<<<<<<<<<< blog post style ***************/
+
+div.posts div.blog-post {
+   .blog-post-title{
+     letter-spacing: 1px;
+     color: #222; /*#4183C4*/
+  }
+  a:hover, a:active {
+    color: #ff6060;
+    text-decoration: none;
+  }
+  position: relative;
+  margin: 15px 0 25px 0px;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  background-color: #eee;
+  border-radius: 6px;
+  border-left: 4px #222 solid;/*3px #ff5050 solid;*/
+  -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
+}
+
+div.posts div.blog-post::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #222;//#fafcfc;rgba(0, 0, 0, 0.8);
+  border-top-right-radius: 5px;//
+  border-bottom-right-radius: 5px;//
+  -webkit-transition: -webkit-transform .5s;
+  transition: transform .5s;
+  -webkit-transform: scale3d(.8, 0, 1);
+  transform: scale3d(.8, 0, 1);
+  -webkit-transform-origin: 50% 64.8px;
+  -ms-transform-origin: 50% 64.8px;
+  transform-origin: 50% 64.8px
+}
+
+div.posts div.body_post_hover {
+    .blog-post-title{
+    	color: #bbb;
+    }
+    .blog-post-title:hover, .blog-post-title:active {
+      color: #ff6060;
+      text-decoration: none;
+    }
+    background-color: rgba(55, 55, 55, 0.5);
+    color: white;
+    margin-left: -15px;
+    margin-right: 15px;
+    border-left: 8px #ff5050 solid;
+    -webkit-transition: all 1s;//0.5s;
+    transition: all 1s;//0.5s
+}
+
+div.posts div.body_post_hover::before {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+}
+
+.blog-post-title{
+	padding-top: 10px;
+}
+
+.read-more{
+	margin-right: 20px;
+}
+
+.span-blank-before::before{
+	padding-right: 4px;
+}
+
+/****************************blog post style >>>>>>>>>*/
+
+/*<<<<<<<<<< list group style *****************/
+.list-group-item-gray{
+	background: #444;
+	color: #ddd;
+  border: 1px #ddd solid;
+}
+
+a.list-group-item:hover{
+	color:#ff6060;
+  /*background: #222;*/
+	font-weight: bolder;
+	transition: 0.5s ease-in-out;
+}
+a.list-group-item .badge{
+  -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+   transition: transform 0.5s;
+}
+a.list-group-item:hover .badge { background: #ff2020;transform: scale(1.1) rotate(360deg); transition: 0.5s ease-in-out;}
+
+/************************** list group style >>>>>>>>*/
+
+
+/*<<<<<<<<<<< paginator style ***********/
+div.paginator-wrap {
+  text-align: center;
+  color: #222;
+}
+div.paginator-wrap{
+  ul.pagination{
+    li.active a{
+      color: #eee;
+      font-weight: 400;
+      border: 1px #ddd solid;
+      background-color: #222;
+    }
+    li a{
+      color: #222;
+    }
+    li a:hover{
+      color:#ff5050;
+    }
+  }
+}
+
+/************ paginator style >>>>>>>>>>>*/
+
+
+/*<<<<<<<<< related post style *********/
+
+div.related-wrap{
+  background-color: #eee;
+  border-left: 3px #222 solid;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 2em;
+  //-webkit-transition: -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+  //transition: transform 2s;
+}
+div.related-wrap:hover{
+  border-left: 6px #ff5050 solid;
+  margin-left: -20px;
+  border-radius: 30px 5px 5px 0px;
+}
+
+/*********** related post style >>>>>>>>>>*/
+
+
+/*<<<<<<<<<<<< comment style *************/
+div.comments-wrap{
+  padding-top: 50px;
+}
+
+/************* comment style >>>>>>>>>>>>*/
+
+/*<<<<<<<<<<< footer style *****************/
+
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #222;//#f5f5f5;
+  color: white;
+}
+
+div.footer-wrap{
+	text-align: center;
+  padding-top: 10px;
+}
+
+/************* footer style >>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<< others style **************/
+span.span-link a{
+  font-size: 0.9em;
+  color: #fff;
+  border-radius: .25em;
+  background-color: #777;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+span.span-link a:hover{
+  color:#ff5050;
+  text-decoration: none;
+}
+
+a{
+  color: #666;
+}
+a:hover{
+  color:#ff5050;
+  text-decoration: none;
+}
+
+/********** others style >>>>>>>>>>>>*/
+
+@import "highlights";

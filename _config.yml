@@ -3,14 +3,15 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kean
+name: Kean's Blog
 
 # Short bio or description (displayed in the header)
-description: This is  Keans' Blog 
+description: Talk is cheap, let's code!
 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/hikean/hikean.github.io/master/images/kean-logo.png
+avatar: /images/kean-logo.png
+#https://raw.githubusercontent.com/hikean/hikean.github.io/master/images/kean-logo.png
 
 #
 # Flags below are optional
@@ -27,7 +28,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: Keans' Blog
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -43,7 +44,7 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.hikean.com
-
+lsi: true
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -51,14 +52,14 @@ url: http://www.hikean.com
 baseurl: ""
 
 #  use duoshuo comments
-duoshuo: hikean 
+duoshuo: hikean
 
 # pagenator
 paginate: 6
 paginate_path: "/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
-# 
+#
 permalink: /:title/
 
 
@@ -71,6 +72,7 @@ highlighter: rouge  #pygments
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
+  toc_levels: 2..2 # there're bugs while setting toc_levels equal 2..3
   input: GFM
   # https://github.com/jekyll/jekyll/pull/4090
   extensions:
@@ -79,7 +81,7 @@ kramdown:
     - smart
 
   syntax_highlighter: rouge
-  
+
   default_lang: c
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
@@ -90,13 +92,13 @@ kramdown:
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
       line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    #block:
+    #  line_numbers: true
+    #  start_line: 1
 
 
-host: 192.168.1.103
-port: 4000
+#host: 192.168.1.103
+#port: 4000
 
 
 # kramdown:
@@ -121,8 +123,8 @@ port: 4000
 
 
 
-# The release of Jekyll Now that you're using
-version: v1.1.0
+# The release of Dark Pink Bootstrap that you're using
+version: "v 0.0.1"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -141,4 +143,3 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
-

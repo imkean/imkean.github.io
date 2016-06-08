@@ -2,10 +2,11 @@
 layout: post
 title: Start Here
 categories: [Jekyll]
-tags: [Github, Jekyll]
+tags: [Github, Jekyll,Markdown]
+excerpt: "I started Here!There are some basic and useful kramdown syntax."
+#MathJax: true
 ---
 
-<!-- more --> I started Here!There are some basic and useful kramdown syntax.<!-- more -->
 
 
 * Contents
@@ -42,13 +43,13 @@ int main()
 ## MathJax
 
 $$a^2 = b^2 + c^2$$<br/>
-For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level 
+For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula, and this is an inline Level
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}{1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
 
 ## Task lists
  - ✘ task one not finish
- - ✓ task two finished 
+ - ✓ task two finished
 
 - [x] task three not finish
 - [ ] task one not finish `- + SPACE + [ ]`
@@ -67,7 +68,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 | Second body
 |---
 | 2 line
-| ok 
+| ok
 | sdf
 | sdfd
 | dfd
