@@ -80,10 +80,10 @@ body {
 
 #intro {
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 45%;
   padding: 10px 10px 20px 10px;
-  width: 60%;
+  width: 70%;
   text-align: center;
   background: rgba(45,45,45,0.78);
   border-radius: 20px;
@@ -108,8 +108,8 @@ h1 {
   border: 0.5px solid #fff;
 }*/
 img.img-logo{
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   /*border: 1px #fff solid;*/
   border-radius: 50%;
   transition: all 1s;
@@ -146,6 +146,25 @@ a.btn:hover {
   border-color: #ff6060;
 }
 
+@media only screen and (max-width: 1376px)
+{
+  #intro {
+    left: 20%;
+    width: 60%;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  div span{
+    font-size: 32px;
+  }
+  div img.img-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
@@ -168,8 +187,8 @@ a.btn:hover {
     font-size: 18px;
   }
   div img.img-logo {
-    height: 48px;
-    width: 48px;
+    height: 54px;
+    width: 54px;
     border-radius: 50%;
   }
 }
@@ -182,12 +201,12 @@ a.btn:hover {
     font-size: 30px;
   }
   div img.img-logo {
-    height: 18px;
-    width: 18px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
   }
   div span, p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .btn {
     font-size: 12px;
@@ -199,11 +218,11 @@ a.btn:hover {
     font-size: 28px;
   }
   div span, p{
-    font-size: 12px;
+    font-size: 10px;
   }
   div img.img-logo {
-    height: 14px;
-    width: 14px;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
   }
 }
