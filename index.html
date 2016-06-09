@@ -8,10 +8,13 @@ html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
   <div class="row">
     <div class="col-md-offset-1 col-md-8 blog-main">
       <div id="search-div" class="input-group search-tool">
-        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+        <span class="input-group-addon">
+          <button id="search-btn">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
         <input  id="search-text" type="text" class="form-control search-content" placeholder="Search Blogs...">
       </div>
-      <br/>
 
     <div class="posts">
       {% for post in paginator.posts %}

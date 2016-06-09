@@ -58,7 +58,7 @@
         $("#search-btn").click(function(){
             //$(".search-tool").css("display", "block");
             show = true;
-            $("#search-text").val("");
+            //$("#search-text").val("");
             $("#search-text").focus();
             time1 = 0;
         });
