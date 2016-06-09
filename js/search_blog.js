@@ -22,7 +22,7 @@ $(document).ready(function () {
       $("#search-text").typeahead({
         source: names,
         items: 8, /*max matched item to show*/
-        minLength: 3,/*min matched sub-string*/
+        minLength: 2,/*min matched sub-string*/
 
         afterSelect: function (item) {
           //$("ul.typeahead.dropdown-menu").css("display", "none");
