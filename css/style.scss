@@ -60,14 +60,8 @@ div#search-div.input-group.search-tool{
   padding-bottom: 5px;
 }
 
-div#search-div span.input-group-addon button#search-btn{
-  padding: 0;
-  border: 0;
-  margin: 0;
-  background-color: transparent;
-  :hover{
+div#search-div span.input-group-btn button.btn#search-btn:hover{
     color: #ff5050;
-  }
 }
 
 /*********** search bar style >>>>>>>>>*/

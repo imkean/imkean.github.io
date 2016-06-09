@@ -126,8 +126,8 @@ div span, p {
 }
 a.btn {
   display: inline-block;
-  padding: 15px 30px;
-  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin-bottom: 0.4em;
   border: 2px solid #fff;
   text-transform: uppercase;
   letter-spacing: 0.015em;
@@ -232,7 +232,7 @@ a.btn:hover {
 /** typed.js **/
 
 .type-wrap{
-  margin: 0 0 20px auto;
+  margin: 0 0 0.5em auto;
   /*padding:25px;
   background:#f0f0f0;
   border-radius:5px;
