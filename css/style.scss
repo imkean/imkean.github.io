@@ -158,6 +158,19 @@ div.posts div.body_post_hover::before {
   border: 1px #ddd solid;
 }
 
+ul.list-group li.dropdown a.list-group-item
+{
+  border-radius: 0;
+}
+
+ul#categories-ul.list-group:last-child
+{
+  a.dropdown-toggle.list-group-item{
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+
 a.list-group-item:hover{
 	color:#ff6060;
   /*background: #222;*/

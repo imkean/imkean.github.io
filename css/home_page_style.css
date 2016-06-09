@@ -62,7 +62,7 @@ html, body {
 
 body {
   background-color: #555 ;//rgba(112,123,168,0.5);
-  background-image: url(../images/bk.jpg);
+  background-image: url(/images/bk.jpg);
   background-position: center;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
