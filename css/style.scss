@@ -91,8 +91,8 @@ div.posts div.blog-post {
   background-color: #eee;
   border-radius: 6px;
   border-left: 4px #222 solid;/*3px #ff5050 solid;*/
-  -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
-  transition: all 1s;
+  -webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: all 0.5s;
 }
 
 div.posts div.blog-post::before {
@@ -128,8 +128,8 @@ div.posts div.body_post_hover {
     margin-left: -15px;
     margin-right: 15px;
     border-left: 8px #ff5050 solid;
-    -webkit-transition: all 1s;//0.5s;
-    transition: all 1s;//0.5s
+    -webkit-transition: all 0.5s;//0.5s;
+    transition: all 0.5s;//0.5s
 }
 
 div.posts div.body_post_hover::before {
