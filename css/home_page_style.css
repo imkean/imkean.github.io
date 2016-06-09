@@ -110,13 +110,13 @@ h1 {
 img.img-logo{
   height: 80px;
   width: 80px;
-  /*border: 1px #fff solid;*/
   border-radius: 50%;
   transition: all 1s;
 }
 img.img-logo:hover{
   transform: rotate(360deg);
   border: 1px #ff5050 solid;
+  //box-shadow: 0px 0px 4px #ff5050 ;
   transition: all 1s;
 }
 
@@ -124,7 +124,7 @@ div span, p {
   margin: 0px 0px 0px 0;
   font-size: 28px;
 }
-.btn {
+a.btn {
   display: inline-block;
   padding: 15px 30px;
   margin-bottom: 10px;
@@ -144,6 +144,8 @@ div span, p {
 a.btn:hover {
   color: #ff6060;
   border-color: #ff6060;
+  //box-shadow: 0px 0px 4px #ff5050 ;
+  transition: all 0.4s;
 }
 
 @media only screen and (max-width: 1376px)
