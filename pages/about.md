@@ -5,16 +5,16 @@ permalink: /about/
 navbar_focus: about
 ---
 
-# Functions Need to Be Done :-)
+# TODO List :-)
 
-- ✘ Search Blogs
+- **✓ 60%**  Search Blogs
 - ✘ Tags Page
 - ✘ Archives Page
 - ✘ Wiki Page
 - ✘ Categories Page
-- ✓ Go to Top Button
+- **✓ 100%** Go to Top Button
 - ✘ Maybe also tags cloud Page or module
-- ✓ Navbar Focus on
+- **✓ 80%** Navbar Focus on
 - ✘ Related Post Module
 - ✘ Social Account Module
 

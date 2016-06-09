@@ -33,7 +33,18 @@ body {
 
 /* <<<<<<< search bar style *********/
 
-#search_text:hover,#search_text:focus{
+div#search-div ul.typeahead.dropdown-menu li.active a{
+  color: #000;
+  background-color: #888;
+  transition: all 0.5s;
+}
+div#search-div ul.typeahead.dropdown-menu li.active a:hover{
+  color: #ff5050;
+  background-color: #333;
+  transition: all 0.5s;
+}
+
+#search-text:hover,#search-text:focus{
 	box-shadow: 0 0 3px #ddd;
 	border: 1px #ff5050 solid;
 }

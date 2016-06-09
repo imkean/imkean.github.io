@@ -1,14 +1,15 @@
 ---
 layout: default
+html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
 ---
 
 
 <div class="container">
   <div class="row">
     <div class="col-md-offset-1 col-md-8 blog-main">
-      <div class="input-group">
+      <div id="search-div" class="input-group search-tool">
         <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-        <input  id="search_text" type="text" class="form-control" placeholder="Search Blogs...">
+        <input  id="search-text" type="text" class="form-control search-content" placeholder="Search Blogs...">
       </div>
       <br/>
 
