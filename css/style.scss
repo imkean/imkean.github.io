@@ -157,7 +157,7 @@ ul.list-group li.dropdown a.list-group-item
   border-radius: 0;
 }
 
-ul#categories-ul.list-group:last-child
+ul#categories-ul.list-group li.dropdown:last-child
 {
   a.dropdown-toggle.list-group-item{
     border-radius: 0 0 4px 4px;
