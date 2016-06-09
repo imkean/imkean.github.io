@@ -169,22 +169,32 @@ div.paginator-wrap{
 /*<<<<<<<<< related post style *********/
 
 div.related-wrap{
+  font-size: 1.5em;
   padding-top: 40px;
 }
 div.related-body{
+  .span-link a{
+    background-color: #444;
+    display: inline;
+    font-weight: lighter;
+  }
   background-color: #eee;
   border-left: 3px #222 solid;
-  padding-left: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-right: 2em;
-  //-webkit-transition: -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
-  //transition: transform 2s;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
 }
 div.related-body:hover{
   border-left: 6px #ff5050 solid;
-  margin-left: -20px;
-  border-radius: 30px 5px 5px 0px;
+  transform: translate(-30px,0px);
+  -ms-transform: translate(-30px,0px);
+  -webkit-transform:translate(-30px,0px);
+  border-radius: 5px 5px 5px 5px;
+  -webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
 }
 
 /*********** related post style >>>>>>>>>>*/
@@ -220,15 +230,16 @@ div.footer-wrap{
 /*<<<<<<<< go to top style **************/
 #go-to-top {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 200;
     z-index: 1000;
     display: none;
     position: fixed;
     bottom: 15%;
-    right: 30px;
-    width: 40px;
-    height: 40px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
     background-color: #888;
     color: white;
     opacity: 0.4;
@@ -237,11 +248,11 @@ div.footer-wrap{
 }
 #go-to-top:hover {
     opacity: 0.8;
-    color: #ff5050;
-    border-radius: 5px;
+    color: #ff4040;
+    //border-radius: 5px;
     background-color: #222;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-    transform: scale(1.3,1.3);
+    transform: scale(1.2,1.2);
     transition: all 0.5s;
 }
 /********* go to top style >>>>>>>>>>>>>*/

@@ -14,7 +14,7 @@ navbar_focus: about
 - ✘ Categories Page
 - ✓ Go to Top Button
 - ✘ Maybe also tags cloud Page or module
-- ✘ Navbar Focus on
+- ✓ Navbar Focus on
 - ✘ Related Post Module
 - ✘ Social Account Module
 
