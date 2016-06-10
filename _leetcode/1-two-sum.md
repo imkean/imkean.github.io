@@ -3,7 +3,6 @@ layout: post
 date: 2016-05-27
 title: Two Sum
 tags: [leetcode, algorithm]
-#permalink: /leetcode/1-two-sum/
 ---
 
 

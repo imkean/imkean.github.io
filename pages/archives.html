@@ -6,9 +6,8 @@ navbar_focus: archives
 ---
 
 
-
-<div class="archive-title" >
-  <div class="archiveslist archive-float clearfix">
+<div class="archive-wrap" >
+  <div class="archive-body">
     {% assign count = 1 %}
     {% assign is_first = true %}
     {% for post in site.posts  %}
@@ -16,7 +15,7 @@ navbar_focus: archives
       {% capture next_date_str %}{{ post.previous.date | date: "%Y-%m" }}{% endcapture %}
       {% if this_date_str != next_date_str%}
         {% assign is_first = false %}
-          <h3 id="archives-{{this_date_str}}">
+          <h3 id="archive-{{this_date_str}}" class="archive-head">
               {{ post.date | date: "%b %Y"}}&nbsp;&nbsp;<span class="badge">{{ count }}</span>
           </h3>
           <p id="panel-{{this_date_str}}">
@@ -36,7 +35,6 @@ navbar_focus: archives
         {% assign count = count | plus: 1 %}
       {% endif %}
     {% endfor %}
-    </div>
   </div>
 </div>
 
