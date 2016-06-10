@@ -79,18 +79,8 @@ ul.nav-tabs.affix-top{
             <span class="glyphicon glyphicon-bookmark span-blank-before"></span>
             {{page.title}}
           </h2>
-          <div class="post-blog-info">
-            <p><small><span class="glyphicon glyphicon-calendar span-blank-before">{{page.date | date: "%m/%d/%Y" }}</span>
-              <span class="glyphicon glyphicon-th-list span-blank-before"></span>
-              {% for cate in page.categories %}
-              <span class="label label-default">{{cate}}</span>
-              {% endfor %}
-              <span class="glyphicon glyphicon-tags span-blank-before"></span>
-              {% for tag in page.tags%}
-              <span class="label label-default">{{tag}}</span>
-              {% endfor %}
-            </small></p>
-          </div>
+          {% assign post = page %}
+          {%include post_info.html%}
           <div class="entry">
             {{content}}
           </div>

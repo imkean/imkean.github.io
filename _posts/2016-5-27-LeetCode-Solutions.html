@@ -16,18 +16,8 @@ permalink: /leetcode/
     <span class="glyphicon glyphicon-bookmark span-blank-before"></span>
     {{page.title}}
   </h2>
-  <div class="post-blog-info">
-    <p><small><span class="glyphicon glyphicon-calendar span-blank-before">{{page.date | date: "%m/%d/%Y" }}</span>
-      <span class="glyphicon glyphicon-tasks span-blank-before"></span>
-      {% for cate in page.categories %}
-      <span class="label label-default">{{cate}}</span>
-      {% endfor %}
-      <span class="glyphicon glyphicon-tags span-blank-before"></span>
-      {% for tag in page.tags%}
-      <span class="label label-default">{{tag}}</span>
-      {% endfor %}
-    </small></p>
-  </div>
+    {%assign post = page%}
+    {%include post_info.html%}
     <p>
         近日闲来无事，基本把Leetcode刷了一遍。打算再闲的时候就写写题解，总结一下。因为题目较多，为了避免Leetcode题解泛滥于本博客，所以只用这一篇博客作为所有题解的入口，作为索引或目录页。
     </p>

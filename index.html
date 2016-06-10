@@ -22,20 +22,7 @@ html_tail_js: ["/js/search_blog.js","/js/bootstrap.typeahead.min.js"]
         <a href="{{ site.baseurl }}{{ post.url }}"><h3 class="blog-post-title">
           <span class="glyphicon glyphicon-bookmark span-blank-before"></span>
           {{ post.title }}</h3></a>
-          <div class="post-blog-info">
-            <p><small><span class="glyphicon glyphicon-calendar span-blank-before">{{post.date | date: "%m/%d/%Y" }}</span>
-
-              <span class="glyphicon glyphicon-th-list span-blank-before"></span>
-              {% for cate in post.categories %}
-              <span class="label label-default">{{cate}}</span>
-              {% endfor %}
-
-              <span class="glyphicon glyphicon-tags span-blank-before"></span>
-              {% for tag in post.tags %}
-              <span class="label label-default">{{tag}}</span>
-              {% endfor %}
-            </small></p>
-          </div>
+          {%include post_info.html%}
           <div class="entry">
             <p> {{ post.excerpt }} </p>
             <p class="text-right"><a href="{{ site.baseurl }}{{ post.url }}" class="label label-default read-more">
