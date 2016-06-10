@@ -297,16 +297,6 @@ div.footer-wrap{
 /********* go to top style >>>>>>>>>>>>>*/
 
 /*<<<<<<<< Categories page style ********/
-
-/*.cate-label::before{
-  position: relative;
-  top: 2px;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  content: "\e012";
-}*/
 .cate-label{
   background: #999;
   color: white;
@@ -315,20 +305,19 @@ div.footer-wrap{
   margin-right: 0px;
   padding-left: 4px;
   padding-right: 4px;
-  transition: all 0.2s;
+  //transition: all 0s;
 }
 .cate-label:hover{
   background-color: #222;
   border-radius: 2px 0px 0px 2px;
-  border-left: 4px #ff5050 solid;
-  //transform: translate(-10,0);
   margin-left: 10px;
   margin-right: 1px;
+  border-left: 4px #ff5050 solid;
   transition: all 0.2s;
 }
 
 ul.cate-ul a.cate-title{
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding-left: 4px;
   padding-right: 4px;
   margin-right: 4px;
@@ -345,18 +334,12 @@ ul.cate-ul a.cate-title:hover{
   margin-left: -10px;
   //transform: translate(-10,0);
   transition: all 0.5s;
-  ul.cate-ul li{
-    //list-style: circle;
-    list-style: disc;
-  }
 }
 
 span.cate-post-date{
   font-style: italic;
-  font-size: 0.8em;
+  //font-size: 0.8em;
   margin-left: 10px;
-  :hover{
-  }
 }
 
 /********* Categories page style >>>>>>>*/
