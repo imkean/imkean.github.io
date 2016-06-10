@@ -16,7 +16,7 @@ navbar_focus: about
 - ✘ Maybe also tags cloud Page or module
 - **✓ 80%** Navbar Focus on
 - **✓ 40%** Related Post Module
-- ✘ Social Account Module
+- **✓ 70%** Social Account Module
 
 
 ## About Me
