@@ -9,7 +9,11 @@ navbar_focus: about
 
 - **✓ 80%**  Search Blogs
 - **✓ 80%** Tags Page
+<<<<<<< HEAD
 - **✓ 60%** Archives Page
+=======
+- **✓ 60%** Page
+>>>>>>> 82f8544e728f99095f79025975aeba58b10ff03c
 - ✘ Wiki Page
 - **✓ 80%** Categories Page
 - **✓ 100%** Go to Top Button
