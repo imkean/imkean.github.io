@@ -7,6 +7,3 @@ navbar_focus: wiki
 
 
 ## Need to Be Done
-
-
-{% include duoshuo.html %}

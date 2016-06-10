@@ -93,16 +93,7 @@ ul.nav-tabs.affix-top{
           </div>
         </div>
       </div>
-      <div class="comments-wrap">
-        {%if site.duoshuo and site.disqus %}
-        <button onclick="change_comment()" value = "disqus" id="comment-btn"
-        type="button" class="btn btn-default">使用中文评论</button>
-        {% endif %}
-        <div >
-          {% include duoshuo.html %}
-          {% include disqus.html %}
-        </div>
-      </div>
+      {%include comment.html%}
     </div>
     <div class="col-md-3 blog-sidebar col-sm-3 col-xs-3">
       <div class="row sidebar-module " >

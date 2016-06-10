@@ -70,15 +70,20 @@
     </div><!-- /.container -->
   </nav><!-- /.navbar -->
 
-  <div class="article">
+  <div class="page-main">
     {{ content }}
   </div>
-  <div class="footer-wrap">
-    <footer class = "footer">
-      <br/>
-      <p>Copyright &copy; Kean 2016</p>
-    </footer>
-  </div> <!--footer-wrap-->
+
+  <footer class="footer">
+        <div class="footer-container">
+          <p class="text-muted">
+            <span style="display:inline-block;">{% include svg-icons.html %}</span>
+            <br/>
+            <span style="display:inline-block"> Copyright &copy;<!-- ©--> 2016 Kean</span>
+          </p>
+        </div>
+ </footer>
+
   <a href="#top" id="go-to-top">
     <span class="glyphicon glyphicon-arrow-up glyphicon-chevron-up-"></span>
   </a>
