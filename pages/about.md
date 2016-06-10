@@ -11,7 +11,7 @@ navbar_focus: about
 - ✘ Tags Page
 - ✘ Archives Page
 - ✘ Wiki Page
-- ✘ Categories Page
+- **✓ 100%** Categories Page
 - **✓ 100%** Go to Top Button
 - ✘ Maybe also tags cloud Page or module
 - **✓ 80%** Navbar Focus on
