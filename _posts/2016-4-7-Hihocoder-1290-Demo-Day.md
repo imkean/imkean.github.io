@@ -3,7 +3,7 @@ layout: post
 title: Hihocoder 1290 Demo Day
 categories: [题解]
 tags: [OJ, 校园招聘, Microsoft, 微软在线笔试, Hihocoder, DP, SPFA]
-excerpt: "2016年微软校园招聘在线笔试第一题，简单的二分搜索题"
+excerpt: "2016年微软校园招聘在线笔试第一题，使用DP或者SPFA均可解"
 ---
 
 
