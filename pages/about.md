@@ -7,15 +7,15 @@ navbar_focus: about
 
 # TODO List :-)
 
-- **✓ 60%**  Search Blogs
-- ✘ Tags Page
-- ✘ Archives Page
+- **✓ 80%**  Search Blogs
+- **✓ 80%** Tags Page
+- **✓ 60%** Archives Page
 - ✘ Wiki Page
-- **✓ 100%** Categories Page
+- **✓ 80%** Categories Page
 - **✓ 100%** Go to Top Button
 - ✘ Maybe also tags cloud Page or module
 - **✓ 80%** Navbar Focus on
-- ✘ Related Post Module
+- **✓ 40%** Related Post Module
 - ✘ Social Account Module
 
 

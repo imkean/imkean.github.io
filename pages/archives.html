@@ -1,0 +1,49 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+navbar_focus: archives
+---
+
+
+
+<div class="archive-title" >
+  <div class="archiveslist archive-float clearfix">
+    {% assign count = 1 %}
+    {% assign is_first = true %}
+    {% for post in site.posts  %}
+      {% capture this_date_str %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
+      {% capture next_date_str %}{{ post.previous.date | date: "%Y-%m" }}{% endcapture %}
+      {% if this_date_str != next_date_str%}
+        {% assign is_first = false %}
+          <h3 id="archives-{{this_date_str}}">
+              {{ post.date | date: "%b %Y"}}&nbsp;&nbsp;<span class="badge">{{ count }}</span>
+          </h3>
+          <p id="panel-{{this_date_str}}">
+            <ul>
+              {%for text in site.posts %}
+                {% capture text_date %}{{ text.date | date: "%Y-%m" }}{% endcapture %}
+                {% if text_date ==  this_date_str%}
+                  <li>
+                    <a href="{{site.baseurl}}{{text.url}}">{{text.title}} </a>
+                  </li>
+                {% endif %}
+              {% endfor%}
+            </ul>
+          </p>
+          {% assign count = 1 %}
+      {% else %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+<br/>
+<br/>
+<div style="padding-bottom: 60px;">
+  {% include duoshuo.html %}
+</div>
