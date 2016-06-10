@@ -87,12 +87,40 @@
   <a href="#top" id="go-to-top">
     <span class="glyphicon glyphicon-arrow-up glyphicon-chevron-up-"></span>
   </a>
-  <!--{% include analytics.html %}!-->
+
   {% for js in page.html_tail_js %}
   <script src="{{js}}"></script>
   {% endfor %}
   <script src="/js/scroll-up-bar.min.js"></script>
   <script type="text/javascript">
+  function change_comment(){
+    if($("#comment-btn").attr("value") == "duoshuo"){
+      $("#comment-btn").attr("value","disqus")
+      $("#comment-btn").text("使用中文评论")
+      $('#duoshuo-comments').hide();
+      $('#disqus-comments').show();
+
+    }
+    else {
+      $("#comment-btn").attr("value","duoshuo")
+      $("#comment-btn").text("Comment in Eglish");
+      $('#disqus-comments').hide();
+      $('#duoshuo-comments').show();
+    }
+  }
+  $(document).ready(function(){
+    if(Math.random() < 0.3)
+    {
+      $('#duoshuo-comments').hide();
+      $('#comment-btn').text("使用中文评论")
+      .attr("value","disqus");
+    }
+    else {
+      $('#disqus-comments').hide();
+      $('#comment-btn').text("Comment in English")
+      .attr("value","duoshuo");
+    }
+  });
   {% for line in  page.html_tail_js_piece %}
   {{line}}
   {% endfor %}
@@ -104,7 +132,9 @@
   {% endif %}
   $(document).ready(function(){
     $('#navbar-{{active_bar}}').addClass("active");
+
   });
   </script>
+  {% include analytics.html %}
 </body>
 </html>

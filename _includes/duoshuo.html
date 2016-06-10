@@ -4,6 +4,8 @@
 	{% if page.id %}
 	{% assign page_key = page.id %}
 	{% endif %}
-	<div class="ds-thread" data-thread-key="{{ page_key }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" ></div>
+	<div class="ds-thread" data-thread-key="{{ page_key }}"
+	data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" ></div>
+
 </div>
 {% endif %}

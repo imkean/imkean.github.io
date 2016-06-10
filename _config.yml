@@ -40,6 +40,8 @@ disqus: hikean
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+baidu_analytics: 1639850239d3ee39b2df592972254ebd
+#1070d0b62f1c18782df0d93224c4de10 hikean
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
