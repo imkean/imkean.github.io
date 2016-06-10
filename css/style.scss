@@ -298,13 +298,15 @@ div.footer-wrap{
 
 /*<<<<<<<< Categories page style ********/
 .cate-label{
-  background: #999;
+  background: #666;
   color: white;
   display: inline-block;
   margin-left: 15px;
   margin-right: 0px;
   padding-left: 4px;
   padding-right: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   //transition: all 0s;
 }
 .cate-label:hover{
@@ -315,9 +317,11 @@ div.footer-wrap{
   border-left: 4px #ff5050 solid;
   transition: all 0.2s;
 }
-
+ul.cate-ul{
+  padding-left: 1.5em;
+}
 ul.cate-ul a.cate-title{
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding-left: 4px;
   padding-right: 4px;
   margin-right: 4px;
@@ -337,12 +341,38 @@ ul.cate-ul a.cate-title:hover{
 }
 
 span.cate-post-date{
+  color: #999;
   font-style: italic;
-  //font-size: 0.8em;
+  font-size: 0.88em;
+  font-weight: 600;
   margin-left: 10px;
 }
 
 /********* Categories page style >>>>>>>*/
+
+/*<<<<<<<<<<< Tags page style *************/
+.tags-label{
+  background: #666;
+  color: white;
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px 4px 4px 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  //transition: all 0s;
+}
+.tags-label:hover{
+  background-color: #222;
+  border-radius: 2px 4px 4px 2px;
+  margin-left: 3px;
+  margin-right: 1px;
+  border-left: 4px #ff5050 solid;
+  transition: all 0.2s;
+}
+/************ Tags page style >>>>>>>>>>>>*/
 
 
 /*<<<<<<<<<<<< others style **************/
@@ -363,7 +393,7 @@ span.span-link a:hover{
 }
 
 a{
-  color: #666;
+  color: #555;
 }
 a:hover{
   color:#ff5050;
