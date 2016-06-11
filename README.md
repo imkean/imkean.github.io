@@ -32,7 +32,7 @@
 ### 博客页 Blog
 
 - 页面布局基于[LeetCode](https://leetcode.com/problemset/algorithms/)
-- 部分特效来自于[Mrloh.se][http://mrloh.se]
+- 部分特效来自于[Mrloh.se](http://mrloh.se)
 
 ### 归档页 Archives
 
