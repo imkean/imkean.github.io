@@ -1,7 +1,8 @@
 <div class="comments-wrap">
 	{%if site.duoshuo and site.disqus %}
-	<button onclick="change_comment()" value = "disqus" id="comment-btn"
-	type="button" class="btn btn-default">使用中文评论</button>
+	<button onclick="change_comment()" value = "disqus" id="comment-btn" type="button" class="btn btn-default">
+	使用中文评论
+  </button>
 	{% endif %}
 	<div >
 		{% include duoshuo.html %}
