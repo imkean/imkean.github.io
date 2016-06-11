@@ -36,12 +36,13 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-web_domain: imkean.com
-# www.hikean.com
-disqus: keansblog
-#hikean
+disqus: keansblog #hikean
+
 #  use duoshuo comments
 duoshuo: imkean #hikean
+
+#Enter your site domain name for disqus
+domain_name: imkean.com # www.hikean.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -50,7 +51,7 @@ baidu_analytics: 1639850239d3ee39b2df592972254ebd
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.hikean.com
+url: http:imkean.com #http://www.hikean.com
 lsi: true
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
