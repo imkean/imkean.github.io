@@ -40,6 +40,8 @@ web_domain: imkean.com
 # www.hikean.com
 disqus: keansblog
 #hikean
+#  use duoshuo comments
+duoshuo: imkean #hikean
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -56,8 +58,7 @@ lsi: true
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#  use duoshuo comments
-duoshuo: hikean
+
 
 # pagenator
 paginate: 6
