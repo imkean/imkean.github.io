@@ -11,7 +11,7 @@
 由于本人前端渣，所以本着不重复造轮子的原则，本博客使用了大量的开源代码。如下：
 
 - [Bootstrap 3.3.5](https://getbootstrap.com)
-- [Twitter Bootstrap Typeahead Plugin Extension](Twitter Bootstrap Typeahead Plugin Extension)
+- [Twitter Bootstrap Typeahead Plugin Extension](https://github.com/tcrosen/twitter-bootstrap-typeahead)
 - [jQuery](http://jquery.com)
 - [MathJax](https://www.mathjax.org)
 - [jQuery Tablesorter](http://tablesorter.com/docs/)
@@ -56,7 +56,8 @@
 
 ### 博文搜索 Search Blogs
 
-- 使用[Twitter Bootstrap Typeahead Plugin Extension](Twitter Bootstrap Typeahead Plugin Extension)实现
+
+- 基于[BoHu](http://zhaoyuxiang.cn/blog/)使用[Twitter Bootstrap Typeahead Plugin Extension](https://github.com/tcrosen/twitter-bootstrap-typeahead)实现
 
 
 ### 评论 Comments
