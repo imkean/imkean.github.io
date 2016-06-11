@@ -12,7 +12,7 @@ html {
   min-height: 100%;
 }
 body {
-  min-height: 1000px;
+  //min-height: 1000px;
   width: 100%;
   padding-top: 70px;
   color: #111;
@@ -184,6 +184,7 @@ a.list-group-item:hover .badge { background: #ff2020;transform: scale(1.1) rotat
 div.paginator-wrap {
   text-align: center;
   color: #222;
+  margin-bottom: 85px;
 }
 div.paginator-wrap{
   ul.pagination{

@@ -1,11 +1,16 @@
 ---
-layout: page
-title:
+layout: post
+title: About
 permalink: /about/
+date: 2016-6-6
 navbar_focus: about
 ---
 
-# TODO List :-)
+
+* contens
+{:toc #toc_of_keans_blog}
+
+## TODO List :-)
 
 - **✓ 80%**  Search Blogs
 - **✓ 80%** Tags Page
@@ -31,3 +36,10 @@ Wow, Nothing More...... :)
 
 
 [hikean(at)163.com](mailto:hikean@163.com)
+
+## About This Site
+- Bootstrap
+- Jquery
+- Jekyll
+- Liquid
+- Markdown
