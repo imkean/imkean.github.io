@@ -8,4 +8,34 @@
 		{% include duoshuo.html %}
 		{% include disqus.html %}
 	</div>
+	<script type="text/javascript">
+	function change_comment(){
+    if($("#comment-btn").attr("value") == "duoshuo"){
+      $("#comment-btn").attr("value","disqus")
+      $("#comment-btn").text("使用中文评论")
+      $('#duoshuo-comments').hide();
+      $('#disqus-comments').show();
+
+    }
+    else {
+      $("#comment-btn").attr("value","duoshuo")
+      $("#comment-btn").text("Comment in English");
+      $('#disqus-comments').hide();
+      $('#duoshuo-comments').show();
+    }
+  }
+  $(document).ready(function(){
+    if(Math.random() < 0.3) // 0.3 : 0.7 -> Disqus : Duoshuo
+    {
+      $('#duoshuo-comments').hide();
+      $('#comment-btn').text("使用中文评论")
+      .attr("value","disqus");
+    }
+    else {
+      $('#disqus-comments').hide();
+      $('#comment-btn').text("Comment in English")
+      .attr("value","duoshuo");
+    }
+  });
+	</script>
 </div>

@@ -1,6 +1,3 @@
-
-
-
 # Keans' Blog
 
 本博客最初使用的是[Jekyll Now](https://github.com/jekyll/jekyll)的主题，后来发现这个主题还是太简单了。于是就开始在[Jekyllthemes.org](http://jekyllthemes.org)找别人的博客主题，找了一圈下来也没发现自己特别喜欢的，然后就开始了一段魔改。由于本人并不怎么会前端，所以改的方法就是看别人的主题，觉得哪个效果或功能比较好就拿过来，本博客就是这样产生的。

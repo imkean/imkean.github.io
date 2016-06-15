@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
+  {% include meta.html %}
   <link rel="icon" type="image/png" href="/images/kean-logo.png">
   <link rel="Shortcut Icon" href="/images/favicon.ico">
   <link rel="Bookmark" href="/images/favicon.ico">
@@ -90,38 +85,11 @@
   </a>
 
   {% for js in page.html_tail_js %}
-  <script src="{{js}}"></script>
+  <script type="text/javascript" src="{{js}}"></script>
   {% endfor %}
-  <script src="/js/scroll-up-bar.min.js"></script>
+  <script type="text/javascript" src="/js/scroll-up-bar.min.js"></script>
   <script type="text/javascript">
-  function change_comment(){
-    if($("#comment-btn").attr("value") == "duoshuo"){
-      $("#comment-btn").attr("value","disqus")
-      $("#comment-btn").text("使用中文评论")
-      $('#duoshuo-comments').hide();
-      $('#disqus-comments').show();
 
-    }
-    else {
-      $("#comment-btn").attr("value","duoshuo")
-      $("#comment-btn").text("Comment in Eglish");
-      $('#disqus-comments').hide();
-      $('#duoshuo-comments').show();
-    }
-  }
-  $(document).ready(function(){
-    if(Math.random() < 0.3)
-    {
-      $('#duoshuo-comments').hide();
-      $('#comment-btn').text("使用中文评论")
-      .attr("value","disqus");
-    }
-    else {
-      $('#disqus-comments').hide();
-      $('#comment-btn').text("Comment in English")
-      .attr("value","duoshuo");
-    }
-  });
   {% for line in  page.html_tail_js_piece %}
   {{line}}
   {% endfor %}

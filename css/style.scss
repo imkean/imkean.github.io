@@ -19,6 +19,7 @@ body {
    /*Margin bottom by footer height */
   margin-bottom: 90px;
 }
+
 /*<<<<<< nav bar ***********************/
 #topbar{
   width: 100%;
@@ -379,6 +380,129 @@ a.tags-label:hover{
   transition: all 0.2s;
 }
 /************ Tags page style >>>>>>>>>>>>*/
+
+/*<<<<<<<<<<< Archives page style *********/
+.archive-post-title{
+  display: block;
+  //margin-left: 50px;
+}
+
+.archive-month-wrap{
+  //margin-left: 2em;
+  //border-left: 4px #aaa solid;
+}
+.archive-post-title-before{
+  font-size: 0.8em;
+  display: inline-block;
+  margin-left: -0.60em;
+  margin-right: 2.5em;
+  margin-bottom: -2px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+
+.head-wrap{
+  //margin-left: 1em;
+  //border-left: 4px #aaa solid;
+}
+
+
+a.archive-post-title{
+  transition: all 0.5s;
+}
+a.archive-post-title:hover{
+  font-size: 1.2em;
+  //transform: translate(-10,0);
+  transition: all 0.5s;
+}
+
+span.archive-head-before{
+  position: relative;;
+  font-size: 1em;
+  display: inline-block;
+  //margin-top: 0.25em;
+  margin-left: -0.58em;
+  margin-right: 1em;
+  margin-top: -20px;
+  width: 1em;
+  height: 1em;
+  color: white;
+  //border: 0.5px #fff solid;
+  border-radius: 50%;
+  background-color: #aaa;
+
+}
+
+.archive-body{
+  border-left: 2px #aaa solid;
+}
+
+div.head-wrap:first-child{
+  padding-top: 15px;
+}
+div.head-wrap a.archive-head{
+  font-size: 1.6em;
+  text-decoration: none;
+}
+div.head-wrap a.archive-head:visited{
+  color: #888;
+}
+div.head-wrap a.archive-head:hover{
+  color: #ff5050;
+}
+div.head-wrap a.archive-head:hover .badge{
+  color: #ff5050;
+  font-size: 15px;
+  //background-color: #ff5050;
+  transform: rotateY(360deg);
+  transition: all 0.5s;
+}
+
+div.head-wrap a.archive-head:hover span.span-head{
+  color: #ff5050;
+}
+
+div.head-wrap a.archive-head:hover span.archive-head-before{
+  color: #ff5050;
+  background-color: #000;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
+}
+div.head-wrap a.archive-head span.archive-head-before{
+  transition: all 0.5s;
+}
+
+#archive-clock-text{
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+span#div-test-clock{
+  margin-left: -0.84em;
+  background-color: white;
+}
+
+div#archive-test{
+  font-size: 1.4em;
+  //margin: 0;
+  margin-top: 20px;
+  //padding-bottom: 5px;
+  border: 0;
+  line-height: 0;
+}
+div#archive-test::before{
+  content: "";
+  width: 2px;
+  height: 1em;
+  margin-bottom: -5px;
+  border-left: 2px #aaa solid;
+  //background-color: #000;
+  //color: #000;
+}
+
+/************ Archives page style >>>>>>>>*/
 
 
 /*<<<<<<<<<<<< others style **************/
