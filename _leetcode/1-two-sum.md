@@ -160,15 +160,14 @@ public:
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> ret;
         unordered_map<int,int> mp;
         int index = 0;
         for(const auto & x:nums){
             if(mp.count(target-x))
-                ret.push_back(index),ret.push_back(mp[target-x]);
+                return vector<int>{index,mp[target-x]};
             mp[x] = index++;
         }
-        return ret;
+        return vector<int>();
     }
 };
 ```
