@@ -10,7 +10,7 @@ algorithm:
     title: Add Two Numbers
     acceptance: 23.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: add-two-numbers
 
   - id: 3
