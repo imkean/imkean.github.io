@@ -18,7 +18,8 @@ algorithm:
     acceptance: 22.2%
     difficulty: Medium
     editorial: true
-    url: longest-substring-without-repeating-characters
+    url: LSWRC  #longest-substring-without-repeating-characters
+    #url: longest-substring-without-repeating-characters
 
   - id: 4
     title: Median of Two Sorted Arrays
