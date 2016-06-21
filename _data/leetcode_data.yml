@@ -17,7 +17,7 @@ algorithm:
     title: Longest Substring Without Repeating Characters
     acceptance: 22.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: longest-substring-without-repeating-characters
 
   - id: 4
