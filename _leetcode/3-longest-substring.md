@@ -26,6 +26,8 @@ tags: [Hash Table, Two Pointers, String]
 
 ## Solution
 
+*Using Two Pointers and Hash Table*
+
 **Result:** Accepted **Time:** 16ms
 
 ```cpp
@@ -51,6 +53,8 @@ public:
 };
 ```
 
+*Another Two Pointers and Hash Table Way with while Loop*
+
 **Result:** Accepted **Time:** 12ms
 
 ```cpp
@@ -74,6 +78,25 @@ public:
         return ans;
     }
 };
+```
+
+*Another Hash Table Way*
+
+**Result:** Accepted **Time:** 8ms
+
+```c
+int lengthOfLongestSubstring(char* s) {
+    int index[256]={0},ret = 0;
+    for(int i = 0,last = 0;  s[i]; i++)
+    {
+        if(last < index[s[i]])
+            last = index[s[i]];
+        if(ret <= i - last)
+            ret = i - last + 1;
+        index[s[i]] = i + 1;
+    }
+    return ret;
+}
 ```
 
 **Complexity Analytics**
