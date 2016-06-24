@@ -59,14 +59,14 @@ algorithm:
     title: Palindrome Number
     acceptance: 32.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: palindrome-number
 
   - id: 10
     title: Regular Expression Matching
     acceptance: 22.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: regular-expression-matching
 
   - id: 11
