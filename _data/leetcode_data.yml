@@ -26,7 +26,7 @@ algorithm:
     title: Median of Two Sorted Arrays
     acceptance: 18.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: median-of-two-sorted-arrays
 
   - id: 5
