@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-06-23
-title: Container with Most Water
+title: Container With Most Water
 tags: [Array, Two Pointers]
 ---
 
@@ -27,8 +27,6 @@ Here should be some explanations.
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        if(height.size() < 1)
-            return 0;
         int low = 0, up = height.size() - 1,ret = 0;
         while(low < up)
             if(height[low] < height[up])
