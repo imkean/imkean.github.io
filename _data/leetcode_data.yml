@@ -73,7 +73,7 @@ algorithm:
     title: Container With Most Water
     acceptance: 34.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: container-with-most-water
 
   - id: 12
