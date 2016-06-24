@@ -52,7 +52,7 @@ algorithm:
     title: String to Integer (atoi)
     acceptance: 13.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: string-to-integer-atoi
 
   - id: 9
