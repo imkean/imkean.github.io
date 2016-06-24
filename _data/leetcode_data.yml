@@ -33,7 +33,7 @@ algorithm:
     title: Longest Palindromic Substring
     acceptance: 23.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: longest-palindromic-substring
 
   - id: 6
