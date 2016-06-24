@@ -45,7 +45,7 @@ algorithm:
     title: Reverse Integer
     acceptance: 23.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: reverse-integer
 
   - id: 8
