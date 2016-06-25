@@ -2,7 +2,7 @@
 layout: leetcode
 date: 2016-06-25
 title: Title
-tags: [tag1, tag2]
+tags: [t, t]
 ---
 
 * Contents
@@ -19,20 +19,15 @@ tags: [tag1, tag2]
 
 ## Solution
 
-**Result:** Accepted **Time:** 20ms
+**Result:** Accepted **Time:** 0ms
 
 Here should be some explanations.
 
-```cpp
-#include <stdio.h>
-int main()
-{
-    puts("Hello, World!");
-    return 0;
-}
+```c
+
 ```
 
 **Complexity Analytics**
 
-- Time Complexity: $$O(log(n))$$
-- Space Complexity: $$O(n^2)$$
+- Time Complexity: $$O(n)$$
+- Space Complexity: $$O(1)$$

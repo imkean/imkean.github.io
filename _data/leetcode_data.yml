@@ -129,14 +129,14 @@ algorithm:
     title: Remove Nth Node From End of List
     acceptance: 29.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-nth-node-from-end-of-list
 
   - id: 20
     title: Valid Parentheses
     acceptance: 29.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-parentheses
 
   - id: 21
