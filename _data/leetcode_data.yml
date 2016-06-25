@@ -94,7 +94,7 @@ algorithm:
     title: Longest Common Prefix
     acceptance: 28.4%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: longest-common-prefix
 
   - id: 15
