@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-06-25
-title: Integer To Roman
+title: Integer to Roman
 tags: [String, Math]
 ---
 
@@ -19,7 +19,7 @@ tags: [String, Math]
 
 ## Solution
 
-**Result:** Accepted **Time:** 20ms
+**Result:** Accepted **Time:** 24ms
 
 Here should be some explanations.
 

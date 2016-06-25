@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-06-23
-title: Container With Most Water
+title: Container with Most Water
 tags: [Array, Two Pointers]
 ---
 

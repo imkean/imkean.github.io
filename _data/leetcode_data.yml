@@ -87,7 +87,7 @@ algorithm:
     title: Roman to Integer
     acceptance: 39.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: roman-to-integer
 
   - id: 14
