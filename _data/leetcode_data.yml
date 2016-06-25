@@ -101,7 +101,7 @@ algorithm:
     title: 3Sum
     acceptance: 19.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 3sum
 
   - id: 16
