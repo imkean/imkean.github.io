@@ -108,7 +108,7 @@ algorithm:
     title: 3Sum Closest
     acceptance: 29.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 3sum-closest
 
   - id: 17
