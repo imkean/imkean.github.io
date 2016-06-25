@@ -115,14 +115,14 @@ algorithm:
     title: Letter Combinations of a Phone Number
     acceptance: 29.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: letter-combinations-of-a-phone-number
 
   - id: 18
     title: 4Sum
     acceptance: 24.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: 4sum
 
   - id: 19
