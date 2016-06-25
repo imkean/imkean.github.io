@@ -10,7 +10,7 @@ tags: [Linked List, Two Pointers]
 
 ## Question
 
-> Given a linked list, remove the $$n^th$$ node from the end of list and return its head.
+> Given a linked list, remove the $$n^{th}$$ node from the end of list and return its head.
 >
 >For example,
 >
