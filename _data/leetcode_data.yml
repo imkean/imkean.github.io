@@ -192,21 +192,21 @@ algorithm:
     title: Implement strStr()
     acceptance: 25.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: implement-strstr
 
   - id: 29
     title: Divide Two Integers
     acceptance: 15.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: divide-two-integers
 
   - id: 30
     title: 	Substring with Concatenation of All Words
     acceptance: 20.9%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: substring-with-concatenation-of-all-words
 
   - id: 31
