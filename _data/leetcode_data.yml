@@ -171,7 +171,7 @@ algorithm:
     title: Reverse Nodes in k-Group
     acceptance: 27.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: reverse-nodes-in-k-group
 
   - id: 26
