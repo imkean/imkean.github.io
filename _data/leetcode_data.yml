@@ -304,7 +304,7 @@ algorithm:
     title: Wildcard Matching
     acceptance: 17.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: wildcard-matching
 
   - id: 45
