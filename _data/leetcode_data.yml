@@ -241,7 +241,7 @@ algorithm:
     title: Search Insert Position
     acceptance: 37.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-insert-position
 
   - id: 36
