@@ -150,14 +150,14 @@ algorithm:
     title: Generate Parentheses
     acceptance: 37.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: generate-parentheses
 
   - id: 23
     title: Merge k Sorted Lists
     acceptance: 23.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: merge-k-sorted-lists
 
   - id: 24
