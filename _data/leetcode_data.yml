@@ -276,7 +276,7 @@ algorithm:
     title: Combination Sum II
     acceptance: 27.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combination-sum-ii
 
   - id: 41
