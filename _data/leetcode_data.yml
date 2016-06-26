@@ -283,7 +283,7 @@ algorithm:
     title: First Missing Positive
     acceptance: 24.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: first-missing-positive
 
   - id: 42
