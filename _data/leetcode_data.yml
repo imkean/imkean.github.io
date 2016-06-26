@@ -297,7 +297,7 @@ algorithm:
     title: Multiply Strings
     acceptance: 23.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: multiply-strings
 
   - id: 44
