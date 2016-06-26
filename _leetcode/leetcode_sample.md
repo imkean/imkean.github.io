@@ -19,7 +19,7 @@ tags: [t, t]
 
 ## Solution
 
-**Result:** Accepted **Time:** 0ms
+**Result:** Accepted **Time:** x ms
 
 Here should be some explanations.
 

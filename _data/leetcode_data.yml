@@ -311,14 +311,14 @@ algorithm:
     title: Jump Game II
     acceptance: 25.4%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: jump-game-ii
 
   - id: 46
     title: Permutations
     acceptance: 36.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutations
 
   - id: 47
