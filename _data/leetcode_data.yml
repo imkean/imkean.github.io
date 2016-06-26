@@ -248,14 +248,14 @@ algorithm:
     title: Valid Sudoku
     acceptance: 31.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-sudoku
 
   - id: 37
     title: Sudoku Solver
     acceptance: 25.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: sudoku-solver
 
   - id: 38
