@@ -185,7 +185,7 @@ algorithm:
     title: Remove Element
     acceptance: 34.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-element
 
   - id: 28
