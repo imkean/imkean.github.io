@@ -178,7 +178,7 @@ algorithm:
     title: Remove Duplicates from Sorted Array
     acceptance: 33.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-array
 
   - id: 27
