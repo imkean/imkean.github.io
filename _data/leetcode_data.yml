@@ -234,7 +234,7 @@ algorithm:
     title: Search for a Range
     acceptance: 29.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-for-a-range
 
   - id: 35
