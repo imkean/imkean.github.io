@@ -220,7 +220,7 @@ algorithm:
     title: 	Longest Valid Parentheses
     acceptance: 22.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: longest-valid-parentheses
 
   - id: 33
