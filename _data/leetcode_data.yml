@@ -262,7 +262,7 @@ algorithm:
     title: Count and Say
     acceptance: 29.4%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: count-and-say
 
   - id: 39
