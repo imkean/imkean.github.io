@@ -143,7 +143,7 @@ algorithm:
     title: Merge Two Sorted Lists
     acceptance: 35.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: merge-two-sorted-lists
 
   - id: 22
