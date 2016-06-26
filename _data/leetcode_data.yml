@@ -290,7 +290,7 @@ algorithm:
     title: Trapping Rain Water
     acceptance: 32.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: trapping-rain-water
 
   - id: 43
