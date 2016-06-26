@@ -49,8 +49,8 @@ char* multiply(char* a, char* b) {
         for(int j = 0; j < nb; j++)
         {
             carry += (a[i]-'0')*(b[j]-'0') + ans[i+j];
-            ans[i+j] = carry%10;
-            carry /=10;
+            ans[i+j] = carry % 10;
+            carry /= 10;
         }
         for(int j = nb+i; carry; j++)
         {
