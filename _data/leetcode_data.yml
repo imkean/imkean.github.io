@@ -213,7 +213,7 @@ algorithm:
     title: Next Permutation
     acceptance: 26.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: next-permutation
 
   - id: 32
