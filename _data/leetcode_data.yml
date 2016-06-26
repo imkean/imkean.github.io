@@ -227,7 +227,7 @@ algorithm:
     title: Search in Rotated Sorted Array
     acceptance: 30.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: search-in-rotated-sorted-array
 
   - id: 34
