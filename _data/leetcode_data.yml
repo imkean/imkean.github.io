@@ -269,7 +269,7 @@ algorithm:
     title: Combination Sum
     acceptance: 31.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combination-sum
 
   - id: 40
