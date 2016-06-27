@@ -374,7 +374,7 @@ algorithm:
     title: Spiral Matrix
     acceptance: 22.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: spiral-matrix
 
   - id: 55
