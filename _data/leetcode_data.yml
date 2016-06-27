@@ -381,21 +381,21 @@ algorithm:
     title: Jump Game
     acceptance: 28.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: jump-game
 
   - id: 56
     title: Merge Intervals
     acceptance: 25.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: merge-intervals
 
   - id: 57
     title: Insert Interval
     acceptance: 24.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: insert-interval
 
   - id: 58
