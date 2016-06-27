@@ -325,7 +325,7 @@ algorithm:
     title: Permutations II
     acceptance: 28.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutations-ii
 
   - id: 48
