@@ -339,7 +339,7 @@ algorithm:
     title: Group Anagrams
     acceptance: 27.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: anagrams
 
   - id: 50

@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-06-27
-title: Rotate
+title: Rotate Image
 tags: [Array]
 ---
 
