@@ -21,7 +21,7 @@ tags: [Hash Table, Backtracking]
 
 ## Solution
 
-**Result:** Accepted **Time:** x ms
+**Result:** Accepted **Time:** 0 ms
 
 Here should be some explanations.
 

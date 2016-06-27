@@ -367,7 +367,7 @@ algorithm:
     title: Maximum Subarray
     acceptance: 36.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: maximum-subarray
 
   - id: 54
