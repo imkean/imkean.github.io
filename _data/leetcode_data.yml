@@ -346,21 +346,21 @@ algorithm:
     title: Pow(x, n)
     acceptance: 27.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: powx-n
 
   - id: 51
     title: N-Queens
     acceptance: 26.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: n-queens
 
   - id: 52
     title: N-Queens II
     acceptance: 39.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: n-queens-ii
 
   - id: 53

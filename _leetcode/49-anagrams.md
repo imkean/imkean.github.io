@@ -29,7 +29,7 @@ tags: [String, Hash Table]
 
 ## Solution
 
-**Result:** Accepted **Time:** x ms
+**Result:** Accepted **Time:** 68 ms
 
 Here should be some explanations.
 
