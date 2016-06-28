@@ -12,8 +12,11 @@ excerpt: "I started Here!There are some basic and useful kramdown syntax."
 * Contents
 {:toc #toc_of_keans_blog}
 
+:ok_hand:
+
 ## Code and Highlight
 
+### Code Block
 
 ```ruby
 def show
@@ -29,7 +32,6 @@ end
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int a, b, c;
 int *e, *p = NULL;
 
@@ -40,6 +42,12 @@ int main()
 }
 ```
 
+### Inline code
+
+I think you should use an
+`<addr>` element here instead.
+
+
 ## MathJax
 
 $$a^2 = b^2 + c^2$$<br/>
@@ -47,17 +55,58 @@ For example this is a Block level $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formu
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 \\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}{1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
 
-## Task lists
+## Lists
  - ✘ task one not finish
  - ✓ task two finished
 
-- [x] task three not finish
+-  [x] task three not finish
 - [ ] task one not finish `- + SPACE + [ ]`
 - [x] task two finished `- + SPACE + [x]`
+- [x] This is a complete item
+
+### Unordered List
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+### Ordered List
+
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
 
 
+## Abbreviations (Kramdown)
+
+This is some text not written in HTML but in another language!
+
+*[another language]: It's called Markdown
+*[HTML]: HyperTextMarkupLanguage
+
+## Set Classes and IDs
+
+A simple paragraph with an ID attribute.
+{: #para-one}
+
+> A blockquote with a title
+{:title="The blockquote title"}
+{: #myid}
+
+* {:.cls} This item has the class "cls"
+
+{:.ruby}
+    Some code here
 
 ## Tables
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 |---
 | Default aligned | Left aligned | Center aligned | Right aligned
@@ -75,7 +124,8 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$ formula.
 |===
 | Footer row
 
-## Pictures(shown below)
+## Picture
+
 ![_config.yml]({{ site.baseurl }}/images/404.jpg)
 
 ## Links
@@ -95,6 +145,16 @@ autolink  <http://www.github.com/>
 *****
 
 - - -
+
+## Emphasis
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
 
 ## Footnote
 
