@@ -416,7 +416,7 @@ algorithm:
     title: Permutation Sequence
     acceptance: 25.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: permutation-sequence
 
   - id: 61
