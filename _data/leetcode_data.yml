@@ -507,7 +507,7 @@ algorithm:
     title: Set Matrix Zeroes
     acceptance: 33.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: set-matrix-zeroes
 
   - id: 74
