@@ -430,28 +430,28 @@ algorithm:
     title: Unique Paths
     acceptance: 36.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-paths
 
   - id: 63
     title: 	Unique Paths II
     acceptance: 29.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-paths-ii
 
   - id: 64
     title: Minimum Path Sum
     acceptance: 35.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: minimum-path-sum
 
   - id: 65
     title: Valid Number
     acceptance: 12.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: valid-number
 
   - id: 66
