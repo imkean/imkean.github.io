@@ -409,7 +409,7 @@ algorithm:
     title: Spiral Matrix II
     acceptance: 35.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: spiral-matrix-ii
 
   - id: 60
