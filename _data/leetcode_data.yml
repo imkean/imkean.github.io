@@ -535,7 +535,7 @@ algorithm:
     title: Combinations
     acceptance: 34.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combinations
 
   - id: 78
