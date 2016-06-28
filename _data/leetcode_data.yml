@@ -514,14 +514,14 @@ algorithm:
     title: Search a 2D Matrix
     acceptance: 34.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-a-2d-matrix
 
   - id: 75
     title: Sort Colors
     acceptance: 34.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sort-colors
 
   - id: 76
