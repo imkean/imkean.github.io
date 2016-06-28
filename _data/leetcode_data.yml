@@ -528,7 +528,7 @@ algorithm:
     title: Minimum Window Substring
     acceptance: 21.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: minimum-window-substring
 
   - id: 77
