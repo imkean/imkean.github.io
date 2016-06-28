@@ -423,7 +423,7 @@ algorithm:
     title: Rotate List
     acceptance: 23.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: rotate-list
 
   - id: 62
