@@ -584,14 +584,14 @@ algorithm:
     title: Largest Rectangle in Histogram
     acceptance: 24.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: largest-rectangle-in-histogram
 
   - id: 85
     title: Maximal Rectangle
     acceptance: 23.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: maximal-rectangle
 
   - id: 86
