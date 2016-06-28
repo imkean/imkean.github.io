@@ -458,42 +458,42 @@ algorithm:
     title: Plus One
     acceptance: 34.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: plus-one
 
   - id: 67
     title: Add Binary
     acceptance: 27.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: add-binary
 
   - id: 68
     title: Text Justification
     acceptance: 16.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: text-justification
 
   - id: 69
     title: Sqrt(x)
     acceptance: 25.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sqrtx
 
   - id: 70
     title: Climbing Stairs
     acceptance: 36.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: climbing-stairs
 
   - id: 71
     title: Simplify Path
     acceptance: 22.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: simplify-path
 
   - id: 72
