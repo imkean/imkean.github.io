@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-06-28
-title: Title
+title: Scramble String
 tags: [String, Dynamic Programming]
 ---
 
