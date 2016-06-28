@@ -12,7 +12,6 @@ excerpt: "I started Here!There are some basic and useful kramdown syntax."
 * Contents
 {:toc #toc_of_keans_blog}
 
-:ok_hand:
 
 ## Code and Highlight
 
