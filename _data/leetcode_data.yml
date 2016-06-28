@@ -542,7 +542,7 @@ algorithm:
     title: Subsets
     acceptance: 31.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: subsets
 
   - id: 79
