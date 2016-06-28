@@ -402,7 +402,7 @@ algorithm:
     title: Length of Last Word
     acceptance: 29.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: length-of-last-word
 
   - id: 59
