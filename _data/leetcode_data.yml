@@ -500,7 +500,7 @@ algorithm:
     title: Edit Distance
     acceptance: 28.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: edit-distance
 
   - id: 73
