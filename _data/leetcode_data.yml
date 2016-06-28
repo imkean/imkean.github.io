@@ -549,14 +549,14 @@ algorithm:
     title: Word Search
     acceptance: 23.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: word-search
 
   - id: 80
     title: Remove Duplicates from Sorted Array II
     acceptance: 32.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: remove-duplicates-from-sorted-array-ii
 
   - id: 81
