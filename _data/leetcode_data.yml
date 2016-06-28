@@ -598,7 +598,7 @@ algorithm:
     title: Partition List
     acceptance: 29.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: partition-list
 
   - id: 87
