@@ -633,35 +633,35 @@ algorithm:
     title: Decode Ways
     acceptance: 17.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: decode-ways
 
   - id: 92
     title: Reverse Linked List II
     acceptance: 28.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: reverse-linked-list-ii
 
   - id: 93
     title: Restore IP Addresses
     acceptance: 23.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: restore-ip-addresses
 
   - id: 94
     title: Binary Tree Inorder Traversal
     acceptance: 40.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-tree-inorder-traversal
 
   - id: 95
     title: Unique Binary Search Trees II
     acceptance: 29.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-binary-search-trees-ii
 
   - id: 96
