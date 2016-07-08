@@ -605,28 +605,28 @@ algorithm:
     title: Scramble String
     acceptance: 26.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: scramble-string
 
   - id: 88
     title: Merge Sorted Array
     acceptance: 30.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: merge-sorted-array
 
   - id: 89
     title: Gray Code
     acceptance: 36.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: gray-code
 
   - id: 90
     title: Subsets II
     acceptance: 30.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: subsets-ii
 
   - id: 91
