@@ -808,35 +808,35 @@ algorithm:
     title: Populating Next Right Pointers in Each Node
     acceptance: 36.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: populating-next-right-pointers-in-each-node
 
   - id: 117
     title: Populating Next Right Pointers in Each Node II
     acceptance: 32.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: populating-next-right-pointers-in-each-node-ii
 
   - id: 118
     title: Pascal's Triangle
     acceptance: 33.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: pascals-triangle
 
   - id: 119
     title: Pascal's Triangle II
     acceptance: 32.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: pascals-triangle-ii
 
   - id: 120
     title: Triangle
     acceptance: 30.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: triangle
 
   - id: 121
