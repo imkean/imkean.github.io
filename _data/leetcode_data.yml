@@ -773,35 +773,35 @@ algorithm:
     title: Minimum Depth of Binary Tree
     acceptance: 30.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: minimum-depth-of-binary-tree
 
   - id: 112
     title: Path Sum
     acceptance: 31.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: path-sum
 
   - id: 113
     title: Path Sum II
     acceptance: 28.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: path-sum-ii
 
   - id: 114
     title: Flatten Binary Tree to Linked List
     acceptance: 31.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: flatten-binary-tree-to-linked-list
 
   - id: 115
     title: Distinct Subsequences
     acceptance: 29.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: distinct-subsequences
 
   - id: 116
