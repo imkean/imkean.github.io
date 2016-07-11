@@ -668,35 +668,35 @@ algorithm:
     title: Unique Binary Search Trees
     acceptance: 37.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: unique-binary-search-trees
 
   - id: 97
     title: Interleaving String
     acceptance: 22.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: interleaving-string
 
   - id: 98
     title: Validate Binary Search Tree
     acceptance: 21.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: validate-binary-search-tree
 
   - id: 99
     title: Recover Binary Search Tree
     acceptance: 26.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: recover-binary-search-tree
 
   - id: 100
     title: Same Tree
     acceptance: 43.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: same-tree
 
   - id: 101
