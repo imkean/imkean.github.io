@@ -752,21 +752,21 @@ algorithm:
     title: Convert Sorted Array to Binary Search Tree
     acceptance: 37.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: convert-sorted-array-to-binary-search-tree
 
   - id: 109
     title: Convert Sorted List to Binary Search Tree
     acceptance: 30.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: convert-sorted-list-to-binary-search-tree
 
   - id: 110
     title: Balanced Binary Tree
     acceptance: 34.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: balanced-binary-tree
 
   - id: 111
