@@ -843,35 +843,35 @@ algorithm:
     title: Best Time to Buy and Sell Stock
     acceptance: 36.3%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: best-time-to-buy-and-sell-stock
 
   - id: 122
     title: Best Time to Buy and Sell Stock II
     acceptance: 42.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: best-time-to-buy-and-sell-stock-ii
 
   - id: 123
     title: Best Time to Buy and Sell Stock III
     acceptance: 26.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: best-time-to-buy-and-sell-stock-iii
 
   - id: 124
     title: Binary Tree Maximum Path Sum
     acceptance: 23.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: binary-tree-maximum-path-sum
 
   - id: 125
     title: Valid Palindrome
     acceptance: 24.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-palindrome
 
   - id: 126
