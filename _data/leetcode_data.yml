@@ -878,7 +878,7 @@ algorithm:
     title: Word Ladder II
     acceptance: 13.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: word-ladder-ii
 
   - id: 127
