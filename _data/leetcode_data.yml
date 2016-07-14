@@ -885,28 +885,28 @@ algorithm:
     title: Word Ladder
     acceptance: 19.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: word-ladder
 
   - id: 128
     title: Longest Consecutive Sequence
     acceptance: 32.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: longest-consecutive-sequence
 
   - id: 129
     title: Sum Root to Leaf Numbers
     acceptance: 32.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sum-root-to-leaf-numbers
 
   - id: 130
     title: Surrounded Regions
     acceptance: 16.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: surrounded-regions
 
   - id: 131
