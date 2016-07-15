@@ -22,7 +22,7 @@ tags: [Design]
 
 ## Solution
 
-**Result:** Accepted **Time:** x ms
+**Result:** Accepted **Time:** 80 ms
 
 Here should be some explanations.
 
