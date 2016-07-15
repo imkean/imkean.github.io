@@ -913,35 +913,35 @@ algorithm:
     title: Palindrome Partitioning
     acceptance: 27.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: palindrome-partitioning
 
   - id: 132
     title: Palindrome Partitioning II
     acceptance: 21.9%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: palindrome-partitioning-ii
 
   - id: 133
     title: Clone Graph
     acceptance: 24.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: clone-graph
 
   - id: 134
     title: Gas Station
     acceptance: 27.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: gas-station
 
   - id: 135
     title: Candy
     acceptance: 22.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: candy
 
   - id: 136
