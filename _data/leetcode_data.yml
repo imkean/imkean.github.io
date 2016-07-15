@@ -1053,35 +1053,35 @@ algorithm:
     title: Reverse Words in a String
     acceptance: 15.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: reverse-words-in-a-string
 
   - id: 152
     title: Maximum Product Subarray
     acceptance: 22.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: maximum-product-subarray
 
   - id: 153
     title: Find Minimum in Rotated Sorted Array
     acceptance: 36.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: find-minimum-in-rotated-sorted-array
 
   - id: 154
     title: Find Minimum in Rotated Sorted Array II
     acceptance: 34.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: find-minimum-in-rotated-sorted-array-ii
 
   - id: 155
     title: Min Stack
     acceptance: 22.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: min-stack
 
   - id: 156
