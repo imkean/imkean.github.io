@@ -1018,35 +1018,35 @@ algorithm:
     title: LRU Cache
     acceptance: 15.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: lru-cache
 
   - id: 147
     title: Insertion Sort List
     acceptance: 29.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: insertion-sort-list
 
   - id: 148
     title: Sort List
     acceptance: 25.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: sort-list
 
   - id: 149
     title: Max Points on a Line
     acceptance: 14.4%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: max-points-on-a-line
 
   - id: 150
     title: Evaluate Reverse Polish Notation
     acceptance: 23.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: evaluate-reverse-polish-notation
 
   - id: 151
