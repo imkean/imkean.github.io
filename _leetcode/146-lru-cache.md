@@ -26,8 +26,75 @@ tags: [Design]
 
 Here should be some explanations.
 
-```c
+```cpp
+#include <iostream>
+#include <list>
+#include <unordered_map>
+using namespace std;
+class LRUCache{
+private:
+    struct LinkNode {
+        int key, value;
+        LinkNode *next;
+        LinkNode(int k, int v, LinkNode* n=NULL):key(k),value(v),next(NULL) {}
+        LinkNode():key(0),value(0),next(NULL) {}
+    };
+    void moveToTail(LinkNode *now) {
+        if (now == tail)
+            return ;
+        LinkNode *tmp = now->next;
+        swap(*now,*tmp);
+        hash[now->key] = now;
+        hash[tmp->key] = tmp;
+        if(tmp == tail)
+            now->next = tmp;
+        else
+        {
+            tmp->next = NULL;
+            tail->next = tmp;
+            tail = tmp;
+        }
+    }
 
+public:
+    unordered_map<int, LinkNode *> hash;
+    LinkNode Head, *tail,*space;
+    int size;
+
+    LRUCache(int capacity):size(capacity){
+        tail = &Head;
+    }
+
+    int get(int key) {
+        if (!hash.count(key))
+            return -1;
+        moveToTail(hash[key]);
+        return hash[key]->value;
+    }
+
+    void set(int key, int value) {
+        if (hash.count(key)) {
+            hash[key]->value = value;
+            moveToTail(hash[key]);
+            return ;
+        }
+        if (size > 0)
+        {
+            space = new LinkNode(key, value);
+            size--;
+        }
+        else
+        {
+            hash.erase(Head.next->key);
+            space = Head.next;
+            Head.next = space->next;
+            *space = LinkNode(key,value);
+        }
+        tail->next = space;
+        tail =space;
+        hash[key] = tail;
+    }
+};
 ```
 
 **Complexity Analytics**
