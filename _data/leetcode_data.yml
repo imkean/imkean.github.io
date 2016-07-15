@@ -948,35 +948,35 @@ algorithm:
     title: Single Number
     acceptance: 50.1%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: single-number
 
   - id: 137
     title: Single Number II
     acceptance: 37.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: single-number-ii
 
   - id: 138
     title: Copy List with Random Pointer
     acceptance: 26.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: copy-list-with-random-pointer
 
   - id: 139
     title: Word Break
     acceptance: 25.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: word-break
 
   - id: 140
     title: Word Break II
     acceptance: 20.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: word-break-ii
 
   - id: 141
