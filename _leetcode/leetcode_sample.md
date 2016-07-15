@@ -1,6 +1,6 @@
 ---
 layout: leetcode
-date: 2016-07-13
+date: 2016-07-15
 title: Title
 tags: [t, t]
 ---

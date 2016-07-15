@@ -983,35 +983,35 @@ algorithm:
     title: Linked List Cycle
     acceptance: 36.7%
     difficulty: Easy
-    editorial: false
-    url: linked-list-cycle-ii
+    editorial: true
+    url: linked-list-cycle
 
   - id: 142
     title: Linked List Cycle II
     acceptance: 31.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: linked-list-cycle-ii
 
   - id: 143
     title: Reorder List
     acceptance: 23.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: reorder-list
 
   - id: 144
     title: Binary Tree Preorder Traversal
     acceptance: 40.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-tree-preorder-traversal
 
   - id: 145
     title: Binary Tree Postorder Traversal
     acceptance: 35.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: binary-tree-postorder-traversal
 
   - id: 146
