@@ -1277,14 +1277,14 @@ algorithm:
     title: Binary Tree Right Side View
     acceptance: 35.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-tree-right-side-view
 
   - id: 200
     title: Number of Islands
     acceptance: 28.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: number-of-islands
 
   - id: 201
