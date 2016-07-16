@@ -1221,7 +1221,7 @@ algorithm:
     title: Largest Number
     acceptance: 19.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: largest-number
 
   - id: 186
@@ -1235,14 +1235,14 @@ algorithm:
     title: Repeated DNA Sequences
     acceptance: 25.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: repeated-dna-sequences
 
   - id: 188
     title: Best Time to Buy and Sell Stock IV
     acceptance: 22.5%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: best-time-to-buy-and-sell-stock-iv
 
   - id: 189
