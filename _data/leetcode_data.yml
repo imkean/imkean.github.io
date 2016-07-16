@@ -1445,28 +1445,28 @@ algorithm:
     title: Rectangle Area
     acceptance: 30.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: rectangle-area
 
   - id: 224
     title: Basic Calculator
     acceptance: 22.6%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: basic-calculator
 
   - id: 225
     title: Implement Stack using Queues
     acceptance: 30.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: implement-stack-using-queues
 
   - id: 226
     title: Invert Binary Tree
     acceptance: 46.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: invert-binary-tree
 
   - id: 227
