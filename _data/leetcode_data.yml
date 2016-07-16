@@ -1291,35 +1291,35 @@ algorithm:
     title: Bitwise AND of Numbers Range
     acceptance: 30.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: bitwise-and-of-numbers-range
 
   - id: 202
     title: Happy Number
     acceptance: 36.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: happy-number
 
   - id: 203
     title: Remove Linked List Elements
     acceptance: 29.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: remove-linked-list-elements
 
   - id: 204
     title: Count Primes
     acceptance: 24.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: count-primes
 
   - id: 205
     title: Isomorphic Strings
     acceptance: 30.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: isomorphic-strings
 
   - id: 206
