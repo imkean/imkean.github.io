@@ -1172,14 +1172,14 @@ algorithm:
     title: Excel Sheet Column Title
     acceptance: 22.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: excel-sheet-column-title
 
   - id: 169
     title: Majority Element
     acceptance: 41.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: majority-element
 
   - id: 170
@@ -1193,21 +1193,21 @@ algorithm:
     title: Excel Sheet Column Number
     acceptance: 42.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: excel-sheet-column-number
 
   - id: 172
     title: 	Factorial Trailing Zeroes
     acceptance: 33.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: factorial-trailing-zeroes
 
   - id: 173
     title: Binary Search Tree Iterator
     acceptance: 35.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: binary-search-tree-iterator
 
   - id: 174
