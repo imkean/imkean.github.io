@@ -1361,7 +1361,7 @@ algorithm:
     title: Add and Search Word - Data structure design
     acceptance: 20.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: add-and-search-word-data-structure-design
 
   - id: 212
@@ -1375,21 +1375,21 @@ algorithm:
     title: House Robber II
     acceptance: 31.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: house-robber-ii
 
   - id: 214
     title: Shortest Palindrome
     acceptance: 20.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: shortest-palindrome
 
   - id: 215
     title: Kth Largest Element in an Array
     acceptance: 33.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: kth-largest-element-in-an-array
 
   - id: 216
