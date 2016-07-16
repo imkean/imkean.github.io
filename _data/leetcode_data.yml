@@ -1249,28 +1249,28 @@ algorithm:
     title: Rotate Array
     acceptance: 21.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: rotate-array
 
   - id: 190
     title: Reverse Bits
     acceptance: 29.3%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: reverse-bits
 
   - id: 191
     title: Number of 1 Bits
     acceptance: 37.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: number-of-1-bits
 
   - id: 198
     title: House Robber
     acceptance: 34.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: house-robber
 
   - id: 199
