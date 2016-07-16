@@ -1396,14 +1396,14 @@ algorithm:
     title: Combination Sum III
     acceptance: 36.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: combination-sum-iii
 
   - id: 217
     title: Contains Duplicate
     acceptance: 41.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: contains-duplicate
 
   - id: 218
@@ -1417,28 +1417,28 @@ algorithm:
     title: Contains Duplicate II
     acceptance: 30.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: contains-duplicate-ii
 
   - id: 220
     title: Contains Duplicate III
     acceptance: 18.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: contains-duplicate-iii
 
   - id: 221
     title: Maximal Square
     acceptance: 23.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: maximal-square
 
   - id: 222
     title: Count Complete Tree Nodes
     acceptance: 25.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: count-complete-tree-nodes
 
   - id: 223
