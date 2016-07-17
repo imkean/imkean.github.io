@@ -1,8 +1,8 @@
 ---
 layout: leetcode
 date: 2016-07-17
-title: 
-tags: [ ]
+title:
+tags: []
 ---
 
 * Contents

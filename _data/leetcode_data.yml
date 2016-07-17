@@ -1851,21 +1851,21 @@ algorithm:
     title: Expression Add Operators
     acceptance: 25.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: expression-add-operators
 
   - id: 283
     title: Move Zeroes
     acceptance: 44.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: move-zeroes
 
   - id: 284
     title: Peeking Iterator
     acceptance: 33.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: peeking-iterator
 
   - id: 285
@@ -1886,7 +1886,7 @@ algorithm:
     title: Find the Duplicate Number
     acceptance: 39.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: find-the-duplicate-number
 
   - id: 288
@@ -1900,7 +1900,7 @@ algorithm:
     title: Game of Life
     acceptance: 34.7%
     difficulty:  Medium
-    editorial: false
+    editorial: true
     url: game-of-life
 
   - id: 290
