@@ -1501,14 +1501,14 @@ algorithm:
     title: Power of Two
     acceptance: 37.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: power-of-two
 
   - id: 232
     title: Implement Queue using Stacks
     acceptance: 34.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: implement-queue-using-stacks
 
   - id: 233
@@ -1522,14 +1522,14 @@ algorithm:
     title: Palindrome Linked List
     acceptance: 28.5%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: palindrome-linked-list
 
   - id: 235
     title: Lowest Common Ancestor of a Binary Search Tree
     acceptance: 37.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: lowest-common-ancestor-of-a-binary-search-tree
 
   - id: 236
