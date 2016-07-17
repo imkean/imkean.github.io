@@ -1718,14 +1718,14 @@ algorithm:
     title: Ugly Number
     acceptance: 37.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: ugly-number
 
   - id: 264
     title: Ugly Number II
     acceptance: 28.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: ugly-number-ii
 
   - id: 265
@@ -1753,7 +1753,7 @@ algorithm:
     title: Missing Number
     acceptance: 40.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: missing-number
 
   - id: 269

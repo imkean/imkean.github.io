@@ -1,7 +1,7 @@
 ---
 layout: leetcode
-date: 2016-07-16
-title: Title
+date: 2016-07-17
+title: 
 tags: [ ]
 ---
 
@@ -18,7 +18,7 @@ tags: [ ]
 
 ## Solution
 
-**Result:** Accepted **Time:** x ms
+**Result:** Accepted **Time:**   ms
 
 Here should be some explanations.
 
