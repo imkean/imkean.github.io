@@ -1473,28 +1473,28 @@ algorithm:
     title: Basic Calculator II
     acceptance: 25.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: basic-calculator-ii
 
   - id: 228
     title: Summary Ranges
     acceptance: 24.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: summary-ranges
 
   - id: 229
     title: Majority Element II
     acceptance: 25.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: majority-element-ii
 
   - id: 230
     title: Kth Smallest Element in a BST
     acceptance: 38.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: kth-smallest-element-in-a-bst
 
   - id: 231
