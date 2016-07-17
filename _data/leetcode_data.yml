@@ -1571,14 +1571,14 @@ algorithm:
     title: Different Ways to Add Parentheses
     acceptance: 35.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: different-ways-to-add-parentheses
 
   - id: 242
     title: Valid Anagram
     acceptance: 42.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: valid-anagram
 
   - id: 243
@@ -1683,14 +1683,14 @@ algorithm:
     title: Binary Tree Paths
     acceptance: 29.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: binary-tree-paths
 
   - id: 258
     title: Add Digits
     acceptance: 48.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: add-digits
 
   - id: 259
@@ -1704,7 +1704,7 @@ algorithm:
     title: Single Number III
     acceptance: 44.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: single-number-iii
 
   - id: 261

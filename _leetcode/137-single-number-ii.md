@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 date: 2016-07-13
-title: Title
+title: Single Number II
 tags: [Bit Manipulation]
 ---
 
