@@ -1788,21 +1788,21 @@ algorithm:
     title: Integer to English Words
     acceptance: 18.9%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: integer-to-english-words
 
   - id: 274
     title: H-Index
     acceptance: 29.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: h-index
 
   - id: 275
     title: H-Index II
     acceptance: 32.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: h-index-ii
 
   - id: 276
@@ -1823,14 +1823,14 @@ algorithm:
     title:  First Bad Version
     acceptance: 22.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: first-bad-version
 
   - id: 279
     title: Perfect Squares
     acceptance: 33.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: perfect-squares
 
   - id: 280
