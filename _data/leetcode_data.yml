@@ -1907,7 +1907,7 @@ algorithm:
     title: Word Pattern
     acceptance: 29.6%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: word-pattern
 
   - id: 291
@@ -1921,7 +1921,7 @@ algorithm:
     title: Nim Game
     acceptance: 53.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: nim-game
 
   - id: 293
@@ -1942,7 +1942,7 @@ algorithm:
     title: Find Median from Data Stream
     acceptance: 22.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: find-median-from-data-stream
 
   - id: 296
@@ -1956,7 +1956,7 @@ algorithm:
     title: Serialize and Deserialize Binary Tree
     acceptance: 28.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: serialize-and-deserialize-binary-tree
 
   - id: 298
@@ -1970,14 +1970,14 @@ algorithm:
     title: Bulls and Cows
     acceptance: 30.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: bulls-and-cows
 
   - id: 300
     title: Longest Increasing Subsequence
     acceptance: 34.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: longest-increasing-subsequence
 
 
