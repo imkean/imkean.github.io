@@ -1536,35 +1536,35 @@ algorithm:
     title: Lowest Common Ancestor of a Binary Tree
     acceptance: 28.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: lowest-common-ancestor-of-a-binary-tree
 
   - id: 237
     title: Delete Node in a Linked List
     acceptance: 43.9%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: delete-node-in-a-linked-list
 
   - id: 238
     title: Product of Array Except Self
     acceptance: 43.2%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: product-of-array-except-self
 
   - id: 239
     title: Sliding Window Maximum
     acceptance: 27.8%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: sliding-window-maximum
 
   - id: 240
     title: Search a 2D Matrix II
     acceptance: 34.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: search-a-2d-matrix-ii
 
   - id: 241
