@@ -9,7 +9,7 @@ navbar_focus: archives
 <div class="archive-wrap" >
   <div id="archive-test">
     <!--span id="div-line" > </span-->
-    <span id="div-test-clock" class="glyphicon glyphicon-time"></span>
+    <a href="#" onclick="clock_click()" id="clock" value ="hide"><span id="div-test-clock" class="glyphicon glyphicon-time"></span></a>
     <span id="archive-clock-text">There're {{site.posts | size}} blogs in total.</span>
   </div>
   <div class="archive-body">
@@ -49,6 +49,19 @@ navbar_focus: archives
   $(document).ready(function(){
     $(".archive-month-wrap").hide();
   })
+  function clock_click()
+  {
+      if( $("#clock").attr("value") == "show"){
+          $(".archive-month-wrap").hide();
+          $("#clock").attr("value","hide");
+          $(".archive-month-wrap").attr("value","hide");
+      }
+      else {
+          $(".archive-month-wrap").show();
+          $("#clock").attr("value","show");
+          $(".archive-month-wrap").attr("value","show");
+      }
+  }
   function archive_click(a)
   {
     var vid = "#panel-" + a.id;
