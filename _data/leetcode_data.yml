@@ -2027,7 +2027,7 @@ algorithm:
     title: Range Sum Query - Mutable
     acceptance: 17.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: range-sum-query-mutable
 
   - id: 308
@@ -2041,14 +2041,14 @@ algorithm:
     title: Best Time to Buy and Sell Stock with Cooldown
     acceptance: 36.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: best-time-to-buy-and-sell-stock-with-cooldown
 
   - id: 310
     title: Minimum Height Trees
     acceptance: 26.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: minimum-height-trees
 
   - id: 311
@@ -2062,14 +2062,14 @@ algorithm:
     title: Burst Balloons
     acceptance: 37.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: burst-balloons
 
   - id: 313
     title: Super Ugly Number
     acceptance: 34.8%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: super-ugly-number
 
   - id: 314
