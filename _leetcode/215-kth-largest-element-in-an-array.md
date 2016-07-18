@@ -2,7 +2,7 @@
 layout: leetcode
 date: 2016-07-16
 title: Kth Largest Element in an Array
-tags: [Heap, Divide Conquer]
+tags: [Heap, Divide and Conquer]
 ---
 
 * Contents
