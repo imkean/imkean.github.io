@@ -1999,14 +1999,14 @@ algorithm:
     title: Range Sum Query - Immutable
     acceptance: 24.7%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: range-sum-query-immutable
 
   - id: 304
     title: Range Sum Query 2D - Immutable
     acceptance: 22.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: range-sum-query-2d-immutable
 
   - id: 305
@@ -2020,7 +2020,7 @@ algorithm:
     title: Additive Number
     acceptance: 25.7%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: additive-number
 
   - id: 307
