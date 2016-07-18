@@ -2090,7 +2090,7 @@ algorithm:
     title: Remove Duplicate Letters
     acceptance: 25.3%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: remove-duplicate-letters
 
   - id: 317
@@ -2104,14 +2104,14 @@ algorithm:
     title: Maximum Product of Word Lengths
     acceptance: 39.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: maximum-product-of-word-lengths
 
   - id: 319
     title: Bulb Switcher
     acceptance: 40.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: bulb-switcher
 
   - id: 320
@@ -2132,7 +2132,7 @@ algorithm:
     title: Coin Change
     acceptance: 25.0%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: coin-change
 
   - id: 323
@@ -2146,7 +2146,7 @@ algorithm:
     title: Wiggle Sort II
     acceptance: 22.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: wiggle-sort-ii
 
   - id: 325
@@ -2160,7 +2160,7 @@ algorithm:
     title: Power of Three
     acceptance: 37.1%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: power-of-three
 
   - id: 327
@@ -2174,35 +2174,35 @@ algorithm:
     title: Odd Even Linked List
     acceptance: 38.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: odd-even-linked-list
 
   - id: 329
     title: Longest Increasing Path in a Matrix
     acceptance: 32.0%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: longest-increasing-path-in-a-matrix
 
   - id: 330
     title: Patching Array
     acceptance: 29.5%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: patching-array
 
   - id: 331
     title: Verify Preorder Serialization of a Binary Tree
     acceptance: 31.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: verify-preorder-serialization-of-a-binary-tree
 
   - id: 332
     title: Reconstruct Itinerary
     acceptance: 24.3%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: reconstruct-itinerary
 
   - id: 333
@@ -2216,7 +2216,7 @@ algorithm:
     title: Increasing Triplet Subsequence
     acceptance: 33.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: increasing-triplet-subsequence
 
   - id: 335
@@ -2237,14 +2237,14 @@ algorithm:
     title: House Robber III
     acceptance: 37.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: house-robber-iii
 
   - id: 338
     title: Counting Bits
     acceptance: 56.4%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: counting-bits
 
   - id: 339
@@ -2266,35 +2266,35 @@ algorithm:
     title: Flatten Nested List Iterator
     acceptance: 27.2%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: flatten-nested-list-iterator
 
   - id: 342
     title: Power of Four
     acceptance: 33.8%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: power-of-four
 
   - id: 343
     title:  Integer Break
     acceptance: 40.6%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: integer-break
 
   - id: 344
     title: Reverse String
     acceptance: 58.4%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: reverse-string
 
   - id: 345
     title: Reverse Vowels of a String
     acceptance: 35.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: reverse-vowels-of-a-string
 
   - id: 346
@@ -2308,7 +2308,7 @@ algorithm:
     title: Top K Frequent Elements
     acceptance: 41.9%
     difficulty: Medium
-    editorial: false
+    editorial: true
     url: top-k-frequent-elements
 
   - id: 348
@@ -2322,14 +2322,14 @@ algorithm:
     title: Intersection of Two Arrays
     acceptance: 45.0%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: intersection-of-two-arrays
 
   - id: 350
     title: Intersection of Two Arrays II
     acceptance: 41.2%
     difficulty: Easy
-    editorial: false
+    editorial: true
     url: intersection-of-two-arrays-ii
 
   - id: 351

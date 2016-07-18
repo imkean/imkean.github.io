@@ -2,7 +2,7 @@
 layout: leetcode
 date: 2016-07-17
 title: Additive Number
-tags: [Depth First Search, Math, String, Dynsmic Programming]
+tags: [Depth First Search, Math, String, Dynamic Programming]
 ---
 
 * Contents

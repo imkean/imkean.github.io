@@ -1,7 +1,7 @@
 ---
 layout: leetcode
-date: 2016-07-17
-title:
+date: 2016-07-18
+title: 
 tags: []
 ---
 
