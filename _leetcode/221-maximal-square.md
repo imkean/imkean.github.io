@@ -10,17 +10,17 @@ tags: [Dynamic Programming]
 
 ## Question
 
-> Given a 2D binary matrix filled with 0's and 1's, find the largest square containing all 1's and return its area.
->
->For example, given the following matrix:
->
-><pre>1 0 1 0 0
+ Given a 2D binary matrix filled with 0's and 1's, find the largest square containing all 1's and return its area.
+
+For example, given the following matrix:
+
+<pre>1 0 1 0 0
 1 0 <font color="red">1</font> <font color="red">1</font> 1
 1 1 <font color="red">1</font> <font color="red">1</font> 1
 1 0 0 1 0</pre>
->
->Return 4.
->     
+
+Return 4.
+     
 
 ***
 

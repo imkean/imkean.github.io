@@ -10,18 +10,17 @@ tags: [Hash Table]
 
 ## Question
 
-> Given two strings s and t, determine if they are isomorphic.<br/>
->Two strings are isomorphic if the characters in s can be replaced to get t.<br/>
->All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
->
->**For example:**<br/>
->Given ``"egg"``,``"add"``, return true.<br/>
->Given ``"foo"``, ``"bar"``, return false.<br/>
->Given ``"paper"``, ``"title"``, return true.
->
->**Note:**<br/>
->You may assume both **s** and **t** have the same length.
->
+ Given two strings s and t, determine if they are isomorphic.<br/>
+Two strings are isomorphic if the characters in s can be replaced to get t.<br/>
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.
+
+**For example:**<br/>
+Given ``"egg"``,``"add"``, return true.<br/>
+Given ``"foo"``, ``"bar"``, return false.<br/>
+Given ``"paper"``, ``"title"``, return true.
+
+**Note:**<br/>
+You may assume both **s** and **t** have the same length.
 
 ***
 

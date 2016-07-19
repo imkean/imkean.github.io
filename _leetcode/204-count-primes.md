@@ -10,11 +10,9 @@ tags: [Hash Table, Math]
 
 ## Question
 
-> **Description:**
->
-> Count the number of prime numbers less than a non-negative number, **n**.
->
->     
+ **Description:**
+
+ Count the number of prime numbers less than a non-negative number, **n**.
 
 ***
 
