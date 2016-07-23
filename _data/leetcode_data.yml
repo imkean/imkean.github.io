@@ -2125,7 +2125,7 @@ algorithm:
     title: Create Maximum Number
     acceptance: 21.1%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: create-maximum-number
 
   - id: 322
