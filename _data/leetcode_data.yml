@@ -1515,7 +1515,7 @@ algorithm:
     title: Number of Digit One
     acceptance: 24.9%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: number-of-digit-one
 
   - id: 234
