@@ -1410,7 +1410,7 @@ algorithm:
     title: The Skyline Problem
     acceptance: 22.7%
     difficulty: Hard
-    editorial: false
+    editorial: true
     url: the-skyline-problem
 
   - id: 219
