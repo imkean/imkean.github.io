@@ -62,7 +62,7 @@ baseurl: ""
 
 
 # pagenator
-paginate: 6
+paginate: 8
 paginate_path: "/page:num"
 #
 # !! You don't need to change any of the configuration flags below !!
