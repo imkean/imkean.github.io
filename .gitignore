@@ -9,3 +9,7 @@ Gemfile.lock
 node_modules
 package.json
 tmp
+*.pyc
+*.exe
+*.bin
+~*
